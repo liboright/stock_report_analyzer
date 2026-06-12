@@ -1,0 +1,39 @@
+# Logs
+*.log
+.backend.log
+.frontend.log
+
+# Temp / cache
+.tmp/
+.playwright-mcp/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# Virtual env
+.venv/
+venv/
+
+# Env (含真实密钥)
+.env
+backend/.env
+
+# Node / Vite
+node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+frontend/vite.config.js
+frontend/vite.config.d.ts
+
+# Dev workspace
+workspace/
+
+# Root test artifacts
+test_results.txt
+test_mineru_key.py
+
+# IDE
+.vscode/
+.idea/
+*.swp

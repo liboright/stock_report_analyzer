@@ -1,0 +1,38 @@
+[project]
+name = "report-database-backend"
+version = "0.1.0"
+description = "FastAPI backend for A-share annual report search/parse/deep-research web system"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "pydantic>=2.9.0",
+    "pydantic-settings>=2.5.0",
+    "sqlalchemy>=2.0.30",
+    "python-multipart>=0.0.12",
+    "httpx>=0.27.2",
+    "sse-starlette>=2.1.3",
+    "anthropic>=0.36.0",
+    "pathlib>=1.0.1",
+    "pymupdf>=1.24.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+    "httpx[testing]>=0.27.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+asyncio_mode = "auto"
