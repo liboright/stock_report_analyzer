@@ -85,6 +85,25 @@ class TestAnchorAndProbe:
         with pytest.raises(ValueError):
             _annotate(text)
 
+    def test_anchor_with_zhuyao_yewu_chain_a(self) -> None:
+        """宁德时代 2023/2024/2025 实际格式：anchor 含「主要业务」也命中。"""
+        text = _with_anchor(
+            anchor_line="三、报告期内公司从事的主要业务\n",
+            after_anchor="（一）主营业务\n",
+        )
+        new, _ = _annotate(text)
+        assert "## 三、报告期内公司从事的主要业务" in new
+        assert "### （一）主营业务" in new
+
+    def test_anchor_with_zhuyao_yewu_chain_b(self) -> None:
+        text = _with_anchor(
+            anchor_line="三、报告期内公司从事的主要业务\n",
+            after_anchor="1、主营业务\n",
+        )
+        new, _ = _annotate(text)
+        assert "## 三、报告期内公司从事的主要业务" in new
+        assert "### 1、主营业务" in new
+
 
 # ============== TestChainA ==============
 

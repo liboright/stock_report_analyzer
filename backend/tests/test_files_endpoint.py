@@ -14,7 +14,13 @@ def test_list_files_empty_when_unparsed(client, tmp_env) -> None:
     r = client.get("/companies/宁德时代/reports/2023/files")
     assert r.status_code == 200
     body = r.json()
-    assert body == {"chapters": [], "section3": [], "research": []}
+    assert body == {
+        "chapters": [],
+        "section3": [],
+        "research": [],
+        "tables": [],
+        "merged_tables": [],
+    }
 
 
 def test_list_files_populated(client, tmp_env) -> None:
@@ -39,6 +45,15 @@ def test_list_files_populated(client, tmp_env) -> None:
     research_dir = base / "宁德时代" / "md" / "research_file"
     research_dir.mkdir(parents=True, exist_ok=True)
     (research_dir / "宁德时代_业务概况.md").write_text("# 业务概况", encoding="utf-8")
+    (research_dir / "宁德时代_行业分析.md").write_text("# 行业分析", encoding="utf-8")
+    (research_dir / "宁德时代_业务概况_2024.md").write_text("# 业务概况 2024", encoding="utf-8")
+
+    # 阶段 3.x 合并产物
+    merged_dir = base / "宁德时代" / "md" / "research_file" / "table"
+    merged_dir.mkdir(parents=True, exist_ok=True)
+    (merged_dir / "001_营业收入_long.csv").write_text("a,b\n1,2\n", encoding="utf-8")
+    (merged_dir / "001_营业收入_wide.csv").write_text("y,a\n2023,1\n", encoding="utf-8")
+    (merged_dir / ".merge_run_1.json").write_text("{}", encoding="utf-8")  # sidecar 应被过滤
 
     r = client.get("/companies/宁德时代/reports/2023/files")
     assert r.status_code == 200
@@ -59,8 +74,22 @@ def test_list_files_populated(client, tmp_env) -> None:
         "path": "宁德时代/md/clean/宁德时代2023年年报/管理层讨论/1_概述.md",
     }
 
-    assert len(body["research"]) == 1
-    assert body["research"][0]["title"] == "宁德时代_业务概况"
+    # research 业务概况/行业分析按 kind 分类
+    assert len(body["research"]) == 3
+    by_title = {r["title"]: r for r in body["research"]}
+    assert by_title["宁德时代_业务概况"]["kind"] == "business"
+    assert by_title["宁德时代_业务概况_2024"]["kind"] == "business"
+    assert by_title["宁德时代_行业分析"]["kind"] == "industry"
+
+    # merged_tables 聚合 long/wide 一对，sidecar 不参与
+    assert body["merged_tables"] == [
+        {
+            "group_key": "001_营业收入",
+            "sanitized_title": "001_营业收入",
+            "long_csv": "宁德时代/md/research_file/table/001_营业收入_long.csv",
+            "wide_csv": "宁德时代/md/research_file/table/001_营业收入_wide.csv",
+        }
+    ]
 
 
 def test_static_mount_serves_file(client, tmp_env) -> None:
