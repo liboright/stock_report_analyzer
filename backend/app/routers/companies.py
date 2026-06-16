@@ -18,12 +18,17 @@ from app.schemas.company import CompanyCreate, CompanyDetail, CompanyRead
 from app.schemas.file_tree import (
     ChapterFile,
     FileTreeResponse,
+    MergedTableFile,
     ResearchFile,
     Section3File,
     TableCsvFile,
 )
 from app.schemas.pdf_split import SplitPDFResponse
 from app.schemas.parse_split import ParseSplitTriggerResponse
+from app.schemas.table_merge import (
+    TablesMergeRequest,
+    TablesMergeResponse,
+)
 from app.schemas.tables_extract import SectionSummary, TablesExtractResponse
 from app.services import (
     chapter_split_service,
@@ -32,7 +37,7 @@ from app.services import (
     section3_split_service,
     tables_extract_service,
 )
-from app.workers import parse_split_pipeline
+from app.workers import parse_split_pipeline, table_merge_pipeline
 
 router = APIRouter(prefix="/companies", tags=["companies"])
 
@@ -208,8 +213,24 @@ def list_parsed_files(
 
     research_dir = base / name / "md" / "research_file"
     if research_dir.is_dir():
+        # 按文件名识别业务概况 vs 行业分析；详见 docs/artifacts.md §1
+        business_prefix = f"{name}_业务概况"
+        industry_prefix = f"{name}_行业分析"
         for p in sorted(research_dir.glob("*.md")):
-            research.append(ResearchFile(title=p.stem, path=_rel_posix(p, base)))
+            stem = p.stem
+            if stem.startswith(business_prefix):
+                kind = "business"
+            elif stem.startswith(industry_prefix):
+                kind = "industry"
+            else:
+                kind = "unknown"
+            research.append(
+                ResearchFile(
+                    title=stem,
+                    path=_rel_posix(p, base),
+                    kind=kind,
+                )
+            )
 
     # 阶段 2.5：抽取表格产物（按源 md stem 分子目录，每张表一个 csv）
     tables: list[TableCsvFile] = []
@@ -225,11 +246,41 @@ def list_parsed_files(
                     )
                 )
 
+    # 阶段 3.x：跨年合并表格（{公司}/md/research_file/table/）
+    # 一个 group = {group_key}_long.csv + {group_key}_wide.csv，可能只有 long
+    merged_tables: list[MergedTableFile] = []
+    merged_dir = base / name / "md" / "research_file" / "table"
+    if merged_dir.is_dir():
+        # 先按 group_key 聚合：key = stem 去 _long/_wide 后缀
+        groups: dict[str, dict[str, Path]] = {}
+        for csv in merged_dir.glob("*.csv"):
+            stem = csv.stem
+            if stem.endswith("_long"):
+                key = stem[: -len("_long")]
+                bucket = groups.setdefault(key, {})
+                bucket["long"] = csv
+            elif stem.endswith("_wide"):
+                key = stem[: -len("_wide")]
+                bucket = groups.setdefault(key, {})
+                bucket["wide"] = csv
+        # 过滤 sidecar 等非 _long/_wide 后缀的（groups 只来自有后缀匹配的文件）
+        for key in sorted(groups.keys()):
+            bucket = groups[key]
+            merged_tables.append(
+                MergedTableFile(
+                    group_key=key,
+                    sanitized_title=key,
+                    long_csv=_rel_posix(bucket["long"], base) if "long" in bucket else None,
+                    wide_csv=_rel_posix(bucket["wide"], base) if "wide" in bucket else None,
+                )
+            )
+
     return FileTreeResponse(
         chapters=chapters,
         section3=section3,
         research=research,
         tables=tables,
+        merged_tables=merged_tables,
     )
 
 
@@ -699,4 +750,71 @@ def trigger_tables_extract(
         duration_ms=outcome.duration_ms,
         extract_tables_status=outcome.status,
         message=("管理层讨论目录无 md 输入" if outcome.status == "empty" else ""),
+    )
+
+
+# ---------------- 跨年表格合并（阶段 3.x）----------------
+
+
+@router.post(
+    "/{name}/tables/merge",
+    response_model=TablesMergeResponse,
+    status_code=status.HTTP_202_ACCEPTED,
+)
+def trigger_tables_merge(
+    name: str,
+    payload: TablesMergeRequest,
+    bg: BackgroundTasks,
+    db: Session = Depends(get_session),
+) -> TablesMergeResponse:
+    """阶段 3.x 跨年度表格合并（异步）。
+
+    行为：
+      - 公司不存在 → 404
+      - 入队 ReportRun(template='table_merge')，bg 跑 ``table_merge_pipeline.run_table_merge_pipeline``
+      - 返回 202 + queued 状态的 TablesMergeResponse（groups 全 0，前端订阅 SSE 拿汇总）
+
+    前端订阅：`GET /tasks/{run_id}/stream`。
+    终态汇总查询：从 sidecar ``research_file/table/.merge_run_{run_id}.json`` 读，或从 SSE last_event.payload 拿。
+    """
+    company = db.query(Company).filter(Company.name == name).first()
+    if not company:
+        raise HTTPException(status_code=404, detail=f"公司不存在: {name}")
+
+    run = ReportRun(
+        company_id=company.id,
+        year=None,  # 跨年
+        template="table_merge",
+        status="queued",
+    )
+    db.add(run)
+    db.commit()
+    db.refresh(run)
+
+    years_list = list(payload.years) if payload.years else None
+    bg.add_task(
+        table_merge_pipeline.run_table_merge_pipeline,
+        run_id=run.id,
+        company_id=company.id,
+        years=years_list,
+        force=payload.force,
+        scope=payload.scope,
+    )
+
+    return TablesMergeResponse(
+        company=name,
+        years=years_list or [],
+        run_id=run.id,
+        total_csvs=0,
+        total_groups=0,
+        strong_count=0,
+        weak_count=0,
+        unmergeable_count=0,
+        groups=[],
+        duration_ms=0,
+        status="queued",
+        message=(
+            f"已入队，订阅 /tasks/{run.id}/stream 获取进度"
+            + ("（force=True）" if payload.force else "")
+        ),
     )

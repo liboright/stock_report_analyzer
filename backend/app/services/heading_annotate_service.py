@@ -1,7 +1,7 @@
 """上下文感知标题标注 v2（heading_annotate_service）。
 
 算法 4 步：
-  1. anchor 定位 —— 找首个 # 行 + 行体含「报告期内公司从事的业务」
+  1. anchor 定位 —— 找首个 # 行 + 行体含「报告期内公司从事」
   2. 决定走哪条链 —— anchor 管辖范围内是否有 `（一）/（二）/（三）`
   3. 全文 two-pass 改写 # 数 —— 按"父级 + 当前行体样式"动态判定层级
   4. 同级序号校验 —— 父级换则子级重置；违规行去 # 变正文
@@ -102,11 +102,11 @@ def _anchor_scope(lines):
         if not m:
             continue
         body = m.group(2).strip()
-        if "报告期内公司从事的业务" in body:
+        if "报告期内公司从事" in body:
             anchor_idx = i
             break
     if anchor_idx == -1:
-        raise ValueError("未找到 anchor 行（# 行 + 含'报告期内公司从事的业务'）")
+        raise ValueError("未找到 anchor 行（# 行 + 含'报告期内公司从事'）")
 
     scope_end = len(lines)
     for j in range(anchor_idx + 1, len(lines)):

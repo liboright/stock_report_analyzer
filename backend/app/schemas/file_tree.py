@@ -6,7 +6,7 @@ GET /companies/{name}/reports/{year}/files 的返回结构。
 """
 from __future__ import annotations
 
-from typing import List
+from typing import List, Literal, Optional
 
 from pydantic import BaseModel
 
@@ -28,9 +28,16 @@ class Section3File(BaseModel):
     path: str
 
 
+# 'business' = 公司业务概况族（含增量版）
+# 'industry' = 行业分析
+# 其它（理论上不应有）兜底为 'unknown'
+ResearchKind = Literal["business", "industry", "unknown"]
+
+
 class ResearchFile(BaseModel):
     title: str
     path: str
+    kind: ResearchKind = "unknown"
 
 
 class TableCsvFile(BaseModel):
@@ -39,8 +46,18 @@ class TableCsvFile(BaseModel):
     path: str  # 相对 REPORT_DATA_PATH 的 posix 路径
 
 
+class MergedTableFile(BaseModel):
+    """阶段 3.x 跨年合并产物的一个 group（_long + _wide 一对，可能缺一）。"""
+
+    group_key: str  # 文件前缀，如 "001_营业收入"
+    sanitized_title: str  # 去掉 _long/_wide 后缀（== group_key）
+    long_csv: Optional[str] = None  # rel path；不存在时 None
+    wide_csv: Optional[str] = None
+
+
 class FileTreeResponse(BaseModel):
     chapters: List[ChapterFile] = []
     section3: List[Section3File] = []
     research: List[ResearchFile] = []
     tables: List[TableCsvFile] = []
+    merged_tables: List[MergedTableFile] = []

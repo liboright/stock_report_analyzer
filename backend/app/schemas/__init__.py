@@ -26,6 +26,11 @@ from app.schemas.file_tree import (
     SubsectionFile,
     TableCsvFile,
 )
+from app.schemas.table_merge import (
+    GroupSummary,
+    TablesMergeRequest,
+    TablesMergeResponse,
+)
 
 __all__ = [
     "CompanyCreate",
@@ -45,4 +50,7 @@ __all__ = [
     "ResearchFile",
     "TableCsvFile",
     "FileTreeResponse",
+    "TablesMergeRequest",
+    "TablesMergeResponse",
+    "GroupSummary",
 ]

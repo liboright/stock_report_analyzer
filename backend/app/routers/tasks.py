@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import asyncio
 import json
-from typing import AsyncIterator
+from typing import Any, AsyncIterator, Dict
 
 from fastapi import APIRouter, Depends, HTTPException, Request
 from sqlalchemy.orm import Session
@@ -14,6 +14,31 @@ from app.models import ReportRun, TaskEvent
 from app.schemas.task import TaskEventRead, TaskStatus
 
 router = APIRouter(prefix="/tasks", tags=["tasks"])
+
+
+def _parse_payload(raw: str | None) -> Dict[str, Any] | None:
+    """把 DB 里的 payload_json 解析回 dict（给前端用，含 phase / tool_name 等）。"""
+    if not raw:
+        return None
+    try:
+        return json.loads(raw)
+    except (TypeError, json.JSONDecodeError):
+        return None
+
+
+def _serialize_event(ev: TaskEvent) -> str:
+    """把 TaskEvent 序列化成 SSE data 字符串，含 phase 等分类信息。"""
+    return json.dumps(
+        {
+            "id": ev.id,
+            "stage": ev.stage,
+            "level": ev.level,
+            "message": ev.message,
+            "created_at": ev.created_at.isoformat() if ev.created_at else None,
+            "payload": _parse_payload(ev.payload_json),
+        },
+        ensure_ascii=False,
+    )
 
 
 @router.get("/{run_id}", response_model=TaskStatus)
@@ -73,16 +98,7 @@ async def stream_task_events(run_id: int, request: Request, db: Session = Depend
                 yield {
                     "event": "task_event",
                     "id": str(ev.id),
-                    "data": json.dumps(
-                        {
-                            "id": ev.id,
-                            "stage": ev.stage,
-                            "level": ev.level,
-                            "message": ev.message,
-                            "created_at": ev.created_at.isoformat() if ev.created_at else None,
-                        },
-                        ensure_ascii=False,
-                    ),
+                    "data": _serialize_event(ev),
                 }
             # 心跳保活 + 轮询新事件（M1 阶段 1s 一次）
             while True:
@@ -91,7 +107,7 @@ async def stream_task_events(run_id: int, request: Request, db: Session = Depend
                 await asyncio.sleep(1.0)
                 # 关键：worker 在独立 connection 提交了 ReportRun.status=done / 新 TaskEvent 后，
                 # 这个长生命周期 Session 已经在第一次 query 时开了 BEGIN，处于 snapshot 隔离，
-                # 仅 expire_all() 还不够（缓存清掉了，但 SELECT 仍在旧事务里看不到外部写入），
+                # 仅 expire_all() 还不够（缓存清掉了，但 SELECT 仍在旧事务里看不到最新写入），
                 # 必须 rollback() 结束当前事务，下次 query 才会开新事务、看到最新数据。
                 db.rollback()
                 new_events = (
@@ -105,16 +121,7 @@ async def stream_task_events(run_id: int, request: Request, db: Session = Depend
                     yield {
                         "event": "task_event",
                         "id": str(ev.id),
-                        "data": json.dumps(
-                            {
-                                "id": ev.id,
-                                "stage": ev.stage,
-                                "level": ev.level,
-                                "message": ev.message,
-                                "created_at": ev.created_at.isoformat() if ev.created_at else None,
-                            },
-                            ensure_ascii=False,
-                        ),
+                        "data": _serialize_event(ev),
                     }
                 # 终态后多发几次心跳让客户端收到 done，再关闭
                 run_now = db.query(ReportRun).filter(ReportRun.id == run_id).first()
