@@ -1,0 +1,17 @@
+﻿# source_md_stem, 05_五、报告期内主要经营情况
+# sanitized_title, . 主营业务分行业、分产品、分地区、分销售模式情况
+# group_key, 05_五、报告期内主要经营情况|. 主营业务分行业、分产品、分地区、分销售模式情况
+# kind, long
+# years, 2024,2025
+# column_similarity, 1.0000
+# row_jaccard, 1.0000
+# merged_at, 2026-06-15T14:48:32
+# ============== END HEADER ==============
+_row_type,year,source_md_stem,subject,metric,value,unit
+section_header,2025,05_五、报告期内主要经营情况,主营业务分产品情况,,,元币种：人民币
+section_header,2025,05_五、报告期内主要经营情况,主营业务分地区情况,,,元币种：人民币
+section_header,2025,05_五、报告期内主要经营情况,主营业务分销售模式情况,,,元币种：人民币
+section_header,2024,05_五、报告期内主要经营情况,主营业务分产品情况,,,元币种：人民币
+section_header,2024,05_五、报告期内主要经营情况,主营业务分地区情况,,,元币种：人民币
+section_header,2024,05_五、报告期内主要经营情况,主营业务分销售模式情况,,,元币种：人民币
+

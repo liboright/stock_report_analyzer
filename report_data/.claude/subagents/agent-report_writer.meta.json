@@ -1,0 +1,6 @@
+{
+  "agentType": "general-purpose",
+  "description": "专业的上市公司研究报告写作智能体，支持从头写作和增量写作两种模式。基于report_writer.py模块生成结构化提示词。",
+  "module": "report_writer.py",
+  "promptTemplate": "根据模版和参考内容生成报告，支持增量写作保护已有内容"
+}

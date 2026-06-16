@@ -1,0 +1,566 @@
+{
+  "run_id": 98,
+  "company": "贵州茅台",
+  "years": [
+    2025,
+    2024,
+    2023
+  ],
+  "total_csvs": 61,
+  "total_groups": 23,
+  "strong_count": 9,
+  "weak_count": 10,
+  "unmergeable_count": 4,
+  "duration_ms": 33,
+  "status": "done",
+  "groups": [
+    {
+      "group_key": "05_五、报告期内主要经营情况|. 主营业务分行业、分产品、分地区、分销售模式情况",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ". 主营业务分行业、分产品、分地区、分销售模式情况",
+      "status": "strong",
+      "years": [
+        2024,
+        2025
+      ],
+      "column_similarity": 1.0,
+      "row_jaccard": 1.0,
+      "long_csv": "贵州茅台/md/research_file/table/05_五、报告期内主要经营情况_. 主营业务分行业、分产品、分地区、分销售模式情况_long.csv",
+      "wide_csv": "贵州茅台/md/research_file/table/05_五、报告期内主要经营情况_. 主营业务分行业、分产品、分地区、分销售模式情况_wide.csv",
+      "pending_skill": false,
+      "reason": "列+行均高 Jaccard，可程序化合并"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|. 主要销售客户及主要供应商情况",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ". 主要销售客户及主要供应商情况",
+      "status": "unmergeable",
+      "years": [
+        2025
+      ],
+      "column_similarity": 0.0,
+      "row_jaccard": 0.0,
+      "long_csv": null,
+      "wide_csv": null,
+      "pending_skill": false,
+      "reason": "仅 1 年，< 2 年阈值"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|. 产销量情况分析表",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ". 产销量情况分析表",
+      "status": "strong",
+      "years": [
+        2024,
+        2025
+      ],
+      "column_similarity": 1.0,
+      "row_jaccard": 1.0,
+      "long_csv": "贵州茅台/md/research_file/table/05_五、报告期内主要经营情况_. 产销量情况分析表_long.csv",
+      "wide_csv": "贵州茅台/md/research_file/table/05_五、报告期内主要经营情况_. 产销量情况分析表_wide.csv",
+      "pending_skill": false,
+      "reason": "列+行均高 Jaccard，可程序化合并"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|. 成本分析表",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ". 成本分析表",
+      "status": "strong",
+      "years": [
+        2024,
+        2025
+      ],
+      "column_similarity": 1.0,
+      "row_jaccard": 1.0,
+      "long_csv": "贵州茅台/md/research_file/table/05_五、报告期内主要经营情况_. 成本分析表_long.csv",
+      "wide_csv": "贵州茅台/md/research_file/table/05_五、报告期内主要经营情况_. 成本分析表_wide.csv",
+      "pending_skill": false,
+      "reason": "列+行均高 Jaccard，可程序化合并"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|.主营业务分行业、分产品、分地区、分销售模式情况",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ".主营业务分行业、分产品、分地区、分销售模式情况",
+      "status": "unmergeable",
+      "years": [
+        2023
+      ],
+      "column_similarity": 0.0,
+      "row_jaccard": 0.0,
+      "long_csv": null,
+      "wide_csv": null,
+      "pending_skill": false,
+      "reason": "仅 1 年，< 2 年阈值"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|.产销量情况分析表",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ".产销量情况分析表",
+      "status": "unmergeable",
+      "years": [
+        2023
+      ],
+      "column_similarity": 0.0,
+      "row_jaccard": 0.0,
+      "long_csv": null,
+      "wide_csv": null,
+      "pending_skill": false,
+      "reason": "仅 1 年，< 2 年阈值"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|.区域情况",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ".区域情况",
+      "status": "strong",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "column_similarity": 1.0,
+      "row_jaccard": 1.0,
+      "long_csv": "贵州茅台/md/research_file/table/05_五、报告期内主要经营情况_.区域情况_long.csv",
+      "wide_csv": "贵州茅台/md/research_file/table/05_五、报告期内主要经营情况_.区域情况_wide.csv",
+      "pending_skill": false,
+      "reason": "列+行均高 Jaccard，可程序化合并"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|.成本分析表",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ".成本分析表",
+      "status": "unmergeable",
+      "years": [
+        2023
+      ],
+      "column_similarity": 0.0,
+      "row_jaccard": 0.0,
+      "long_csv": null,
+      "wide_csv": null,
+      "pending_skill": false,
+      "reason": "仅 1 年，< 2 年阈值"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|.按不同类型披露公司主营业务构成",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ".按不同类型披露公司主营业务构成",
+      "status": "strong",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "column_similarity": 1.0,
+      "row_jaccard": 1.0,
+      "long_csv": "贵州茅台/md/research_file/table/05_五、报告期内主要经营情况_.按不同类型披露公司主营业务构成_long.csv",
+      "wide_csv": "贵州茅台/md/research_file/table/05_五、报告期内主要经营情况_.按不同类型披露公司主营业务构成_wide.csv",
+      "pending_skill": false,
+      "reason": "列+行均高 Jaccard，可程序化合并"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|.研发人员情况表",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ".研发人员情况表",
+      "status": "weak",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "column_similarity": 0.3333,
+      "row_jaccard": 1.0,
+      "long_csv": null,
+      "wide_csv": null,
+      "pending_skill": true,
+      "reason": "列相似度 0.33<0.8 | skill failed: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=Fa"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|.研发投入情况表",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ".研发投入情况表",
+      "status": "weak",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "column_similarity": 0.3333,
+      "row_jaccard": 1.0,
+      "long_csv": null,
+      "wide_csv": null,
+      "pending_skill": true,
+      "reason": "列相似度 0.33<0.8 | skill failed: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=Fa"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|.线上销售情况",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ".线上销售情况",
+      "status": "strong",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "column_similarity": 1.0,
+      "row_jaccard": 0.5556,
+      "long_csv": "贵州茅台/md/research_file/table/05_五、报告期内主要经营情况_.线上销售情况_long.csv",
+      "wide_csv": "贵州茅台/md/research_file/table/05_五、报告期内主要经营情况_.线上销售情况_wide.csv",
+      "pending_skill": false,
+      "reason": "列+行均高 Jaccard，可程序化合并"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|.经销商情况",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ".经销商情况",
+      "status": "weak",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "column_similarity": 0.6,
+      "row_jaccard": 1.0,
+      "long_csv": null,
+      "wide_csv": null,
+      "pending_skill": true,
+      "reason": "列相似度 0.60<0.8 | skill failed: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=Fa"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|.采购金额",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ".采购金额",
+      "status": "strong",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "column_similarity": 1.0,
+      "row_jaccard": 1.0,
+      "long_csv": "贵州茅台/md/research_file/table/05_五、报告期内主要经营情况_.采购金额_long.csv",
+      "wide_csv": "贵州茅台/md/research_file/table/05_五、报告期内主要经营情况_.采购金额_wide.csv",
+      "pending_skill": false,
+      "reason": "列+行均高 Jaccard，可程序化合并"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|.销售渠道",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ".销售渠道",
+      "status": "weak",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "column_similarity": 0.3228,
+      "row_jaccard": 1.0,
+      "long_csv": null,
+      "wide_csv": null,
+      "pending_skill": true,
+      "reason": "列相似度 0.32<0.8 | skill failed: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=Fa"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|主要控股参股公司分析",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": "主要控股参股公司分析",
+      "status": "weak",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "column_similarity": 0.697,
+      "row_jaccard": 0.6667,
+      "long_csv": null,
+      "wide_csv": null,
+      "pending_skill": true,
+      "reason": "列相似度 0.70<0.8 | skill failed: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=Fa"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|产品情况",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": "产品情况",
+      "status": "strong",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "column_similarity": 1.0,
+      "row_jaccard": 1.0,
+      "long_csv": "贵州茅台/md/research_file/table/05_五、报告期内主要经营情况_产品情况_long.csv",
+      "wide_csv": "贵州茅台/md/research_file/table/05_五、报告期内主要经营情况_产品情况_wide.csv",
+      "pending_skill": false,
+      "reason": "列+行均高 Jaccard，可程序化合并"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|产品期末库存量",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": "产品期末库存量",
+      "status": "weak",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "column_similarity": 1.0,
+      "row_jaccard": 0.0,
+      "long_csv": null,
+      "wide_csv": null,
+      "pending_skill": true,
+      "reason": "行 Jaccard 0.00<0.5 | skill failed: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=Fa"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|产能状况",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": "产能状况",
+      "status": "weak",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "column_similarity": 0.4,
+      "row_jaccard": 0.4,
+      "long_csv": null,
+      "wide_csv": null,
+      "pending_skill": true,
+      "reason": "列相似度 0.40<0.8；行 Jaccard 0.40<0.5 | skill failed: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=Fa"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|以公允价值计量的金融资产",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": "以公允价值计量的金融资产",
+      "status": "weak",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "column_similarity": 0.2857,
+      "row_jaccard": 1.0,
+      "long_csv": null,
+      "wide_csv": null,
+      "pending_skill": true,
+      "reason": "列相似度 0.29<0.8 | skill failed: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=Fa"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|利润表及现金流量表相关科目变动分析表",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": "利润表及现金流量表相关科目变动分析表",
+      "status": "strong",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "column_similarity": 1.0,
+      "row_jaccard": 1.0,
+      "long_csv": "贵州茅台/md/research_file/table/05_五、报告期内主要经营情况_利润表及现金流量表相关科目变动分析表_long.csv",
+      "wide_csv": "贵州茅台/md/research_file/table/05_五、报告期内主要经营情况_利润表及现金流量表相关科目变动分析表_wide.csv",
+      "pending_skill": false,
+      "reason": "列+行均高 Jaccard，可程序化合并"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|现金流",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": "现金流",
+      "status": "weak",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "column_similarity": 1.0,
+      "row_jaccard": 0.4414,
+      "long_csv": null,
+      "wide_csv": null,
+      "pending_skill": true,
+      "reason": "行 Jaccard 0.44<0.5 | skill failed: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=Fa"
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|资产及负债状况",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": "资产及负债状况",
+      "status": "weak",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "column_similarity": 1.0,
+      "row_jaccard": 0.4558,
+      "long_csv": null,
+      "wide_csv": null,
+      "pending_skill": true,
+      "reason": "行 Jaccard 0.46<0.5 | skill failed: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=Fa"
+    }
+  ],
+  "skill_tasks": [
+    {
+      "group_key": "05_五、报告期内主要经营情况|.研发人员情况表",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ".研发人员情况表",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "csv_paths": [
+        "贵州茅台/md/clean/贵州茅台2023年年报/table/05_五、报告期内主要经营情况/研发人员情况表.csv",
+        "贵州茅台/md/clean/贵州茅台2024年年报/table/05_五、报告期内主要经营情况/研发人员情况表.csv",
+        "贵州茅台/md/clean/贵州茅台2025年年报/table/05_五、报告期内主要经营情况/研发人员情况表.csv"
+      ]
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|.研发投入情况表",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ".研发投入情况表",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "csv_paths": [
+        "贵州茅台/md/clean/贵州茅台2023年年报/table/05_五、报告期内主要经营情况/研发投入情况表.csv",
+        "贵州茅台/md/clean/贵州茅台2024年年报/table/05_五、报告期内主要经营情况/研发投入情况表.csv",
+        "贵州茅台/md/clean/贵州茅台2025年年报/table/05_五、报告期内主要经营情况/研发投入情况表.csv"
+      ]
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|.经销商情况",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ".经销商情况",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "csv_paths": [
+        "贵州茅台/md/clean/贵州茅台2023年年报/table/05_五、报告期内主要经营情况/经销商情况.csv",
+        "贵州茅台/md/clean/贵州茅台2024年年报/table/05_五、报告期内主要经营情况/经销商情况.csv",
+        "贵州茅台/md/clean/贵州茅台2025年年报/table/05_五、报告期内主要经营情况/经销商情况.csv"
+      ]
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|.销售渠道",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": ".销售渠道",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "csv_paths": [
+        "贵州茅台/md/clean/贵州茅台2023年年报/table/05_五、报告期内主要经营情况/销售渠道.csv",
+        "贵州茅台/md/clean/贵州茅台2024年年报/table/05_五、报告期内主要经营情况/销售渠道.csv",
+        "贵州茅台/md/clean/贵州茅台2025年年报/table/05_五、报告期内主要经营情况/销售渠道.csv"
+      ]
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|主要控股参股公司分析",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": "主要控股参股公司分析",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "csv_paths": [
+        "贵州茅台/md/clean/贵州茅台2023年年报/table/05_五、报告期内主要经营情况/主要控股参股公司分析.csv",
+        "贵州茅台/md/clean/贵州茅台2024年年报/table/05_五、报告期内主要经营情况/主要控股参股公司分析.csv",
+        "贵州茅台/md/clean/贵州茅台2025年年报/table/05_五、报告期内主要经营情况/主要控股参股公司分析.csv"
+      ]
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|产品期末库存量",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": "产品期末库存量",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "csv_paths": [
+        "贵州茅台/md/clean/贵州茅台2023年年报/table/05_五、报告期内主要经营情况/产品期末库存量.csv",
+        "贵州茅台/md/clean/贵州茅台2024年年报/table/05_五、报告期内主要经营情况/产品期末库存量.csv",
+        "贵州茅台/md/clean/贵州茅台2025年年报/table/05_五、报告期内主要经营情况/产品期末库存量.csv"
+      ]
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|产能状况",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": "产能状况",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "csv_paths": [
+        "贵州茅台/md/clean/贵州茅台2023年年报/table/05_五、报告期内主要经营情况/产能状况.csv",
+        "贵州茅台/md/clean/贵州茅台2023年年报/table/05_五、报告期内主要经营情况/产能状况_2.csv",
+        "贵州茅台/md/clean/贵州茅台2024年年报/table/05_五、报告期内主要经营情况/产能状况.csv",
+        "贵州茅台/md/clean/贵州茅台2024年年报/table/05_五、报告期内主要经营情况/产能状况_2.csv",
+        "贵州茅台/md/clean/贵州茅台2025年年报/table/05_五、报告期内主要经营情况/产能状况.csv",
+        "贵州茅台/md/clean/贵州茅台2025年年报/table/05_五、报告期内主要经营情况/产能状况_2.csv"
+      ]
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|以公允价值计量的金融资产",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": "以公允价值计量的金融资产",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "csv_paths": [
+        "贵州茅台/md/clean/贵州茅台2023年年报/table/05_五、报告期内主要经营情况/以公允价值计量的金融资产.csv",
+        "贵州茅台/md/clean/贵州茅台2024年年报/table/05_五、报告期内主要经营情况/以公允价值计量的金融资产.csv",
+        "贵州茅台/md/clean/贵州茅台2025年年报/table/05_五、报告期内主要经营情况/以公允价值计量的金融资产.csv"
+      ]
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|现金流",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": "现金流",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "csv_paths": [
+        "贵州茅台/md/clean/贵州茅台2023年年报/table/05_五、报告期内主要经营情况/现金流.csv",
+        "贵州茅台/md/clean/贵州茅台2024年年报/table/05_五、报告期内主要经营情况/现金流.csv",
+        "贵州茅台/md/clean/贵州茅台2025年年报/table/05_五、报告期内主要经营情况/现金流.csv"
+      ]
+    },
+    {
+      "group_key": "05_五、报告期内主要经营情况|资产及负债状况",
+      "source_md_stem": "05_五、报告期内主要经营情况",
+      "sanitized_title": "资产及负债状况",
+      "years": [
+        2023,
+        2024,
+        2025
+      ],
+      "csv_paths": [
+        "贵州茅台/md/clean/贵州茅台2023年年报/table/05_五、报告期内主要经营情况/资产及负债状况.csv",
+        "贵州茅台/md/clean/贵州茅台2024年年报/table/05_五、报告期内主要经营情况/资产及负债状况.csv",
+        "贵州茅台/md/clean/贵州茅台2025年年报/table/05_五、报告期内主要经营情况/资产及负债状况.csv"
+      ]
+    }
+  ],
+  "skill_failures": [
+    "05_五、报告期内主要经营情况|.研发人员情况表: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=False",
+    "05_五、报告期内主要经营情况|.研发投入情况表: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=False",
+    "05_五、报告期内主要经营情况|.经销商情况: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=False",
+    "05_五、报告期内主要经营情况|.销售渠道: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=False",
+    "05_五、报告期内主要经营情况|主要控股参股公司分析: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=False",
+    "05_五、报告期内主要经营情况|产品期末库存量: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=False",
+    "05_五、报告期内主要经营情况|产能状况: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=False",
+    "05_五、报告期内主要经营情况|以公允价值计量的金融资产: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=False",
+    "05_五、报告期内主要经营情况|现金流: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=False",
+    "05_五、报告期内主要经营情况|资产及负债状况: claude skill stage2_table_merge 跑完但产物缺失: long=False, wide=False"
+  ],
+  "finished_at": "2026-06-12T16:15:04"
+}

@@ -1,0 +1,3759 @@
+{
+  "company": "宁德时代",
+  "year": "2024",
+  "report_dir": "D:\\quant\\report_database\\md\\宁德时代\\input\\宁德时代2024年年度报告",
+  "sections": [
+    {
+      "title": "第一节 重要提示、目录和释义",
+      "level": 1,
+      "line_start": 1,
+      "file": "1_第一节 重要提示、目录和释义.md",
+      "section_id": "1",
+      "line_end": null,
+      "subsections": [
+        {
+          "title": "一、董事、监事、高级管理人员是否存在对年度报告内容存在异议或无法保证其真实、准确、完整的情况",
+          "level": 2,
+          "line_start": 3,
+          "file": "1_第一节 重要提示、目录和释义.md",
+          "section_id": "1.1",
+          "line_end": 12,
+          "subsections": []
+        },
+        {
+          "title": "二、非标准审计意见提示",
+          "level": 2,
+          "line_start": 13,
+          "file": "1_第一节 重要提示、目录和释义.md",
+          "section_id": "1.2",
+          "line_end": 16,
+          "subsections": []
+        },
+        {
+          "title": "三、内部控制重大缺陷提示",
+          "level": 2,
+          "line_start": 17,
+          "file": "1_第一节 重要提示、目录和释义.md",
+          "section_id": "1.3",
+          "line_end": 20,
+          "subsections": []
+        },
+        {
+          "title": "四、业绩大幅下滑或亏损的风险提示",
+          "level": 2,
+          "line_start": 21,
+          "file": "1_第一节 重要提示、目录和释义.md",
+          "section_id": "1.4",
+          "line_end": 24,
+          "subsections": []
+        },
+        {
+          "title": "五、对年度报告涉及未来计划等前瞻性陈述的风险提示",
+          "level": 2,
+          "line_start": 25,
+          "file": "1_第一节 重要提示、目录和释义.md",
+          "section_id": "1.5",
+          "line_end": 30,
+          "subsections": []
+        },
+        {
+          "title": "六、公司上市时未盈利且目前未实现盈利",
+          "level": 2,
+          "line_start": 31,
+          "file": "1_第一节 重要提示、目录和释义.md",
+          "section_id": "1.6",
+          "line_end": 34,
+          "subsections": []
+        },
+        {
+          "title": "七、公司是否需要遵守特殊行业的披露要求",
+          "level": 2,
+          "line_start": 35,
+          "file": "1_第一节 重要提示、目录和释义.md",
+          "section_id": "1.7",
+          "line_end": 40,
+          "subsections": []
+        },
+        {
+          "title": "八、董事会审议的报告期利润分配预案或公积金转增股本预案",
+          "level": 2,
+          "line_start": 41,
+          "file": "1_第一节 重要提示、目录和释义.md",
+          "section_id": "1.8",
+          "line_end": 41,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "第二节 公司简介和主要财务指标",
+      "level": 1,
+      "line_start": 1,
+      "file": "2_第二节 公司简介和主要财务指标.md",
+      "section_id": "2",
+      "line_end": null,
+      "subsections": [
+        {
+          "title": "一、公司信息",
+          "level": 2,
+          "line_start": 3,
+          "file": "2_第二节 公司简介和主要财务指标.md",
+          "section_id": "2.1",
+          "line_end": 6,
+          "subsections": []
+        },
+        {
+          "title": "二、联系人和联系方式",
+          "level": 2,
+          "line_start": 7,
+          "file": "2_第二节 公司简介和主要财务指标.md",
+          "section_id": "2.2",
+          "line_end": 10,
+          "subsections": []
+        },
+        {
+          "title": "三、信息披露及备置地点",
+          "level": 2,
+          "line_start": 11,
+          "file": "2_第二节 公司简介和主要财务指标.md",
+          "section_id": "2.3",
+          "line_end": 14,
+          "subsections": []
+        },
+        {
+          "title": "四、其他有关资料",
+          "level": 2,
+          "line_start": 15,
+          "file": "2_第二节 公司简介和主要财务指标.md",
+          "section_id": "2.4",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、公司聘请的会计师事务所",
+              "level": 3,
+              "line_start": 17,
+              "file": "2_第二节 公司简介和主要财务指标.md",
+              "section_id": "2.4.1",
+              "line_end": 20,
+              "subsections": []
+            },
+            {
+              "title": "2、公司聘请的报告期内履行持续督导职责的保荐机构",
+              "level": 3,
+              "line_start": 21,
+              "file": "2_第二节 公司简介和主要财务指标.md",
+              "section_id": "2.4.2",
+              "line_end": 28,
+              "subsections": []
+            },
+            {
+              "title": "3、公司聘请的报告期内履行持续督导职责的财务顾问",
+              "level": 3,
+              "line_start": 29,
+              "file": "2_第二节 公司简介和主要财务指标.md",
+              "section_id": "2.4.3",
+              "line_end": 30,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "五、主要会计数据和财务指标",
+          "level": 2,
+          "line_start": 31,
+          "file": "2_第二节 公司简介和主要财务指标.md",
+          "section_id": "2.5",
+          "line_end": 48,
+          "subsections": []
+        },
+        {
+          "title": "六、分季度主要财务指标",
+          "level": 2,
+          "line_start": 49,
+          "file": "2_第二节 公司简介和主要财务指标.md",
+          "section_id": "2.6",
+          "line_end": 58,
+          "subsections": []
+        },
+        {
+          "title": "七、境内外会计准则下会计数据差异",
+          "level": 2,
+          "line_start": 59,
+          "file": "2_第二节 公司简介和主要财务指标.md",
+          "section_id": "2.7",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、同时按照国际会计准则与按照中国会计准则披露的财务报告中净利润和净资产差异情况",
+              "level": 3,
+              "line_start": 61,
+              "file": "2_第二节 公司简介和主要财务指标.md",
+              "section_id": "2.7.1",
+              "line_end": 66,
+              "subsections": []
+            },
+            {
+              "title": "2、同时按照境外会计准则与按照中国会计准则披露的财务报告中净利润和净资产差异情况",
+              "level": 3,
+              "line_start": 67,
+              "file": "2_第二节 公司简介和主要财务指标.md",
+              "section_id": "2.7.2",
+              "line_end": 72,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "八、非经常性损益项目及金额",
+          "level": 2,
+          "line_start": 73,
+          "file": "2_第二节 公司简介和主要财务指标.md",
+          "section_id": "2.8",
+          "line_end": 73,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "第三节 管理层讨论与分析",
+      "level": 1,
+      "line_start": 1,
+      "file": "3_第三节 管理层讨论与分析.md",
+      "section_id": "3",
+      "line_end": null,
+      "subsections": [
+        {
+          "title": "一、报告期内公司所处行业情况",
+          "level": 2,
+          "line_start": 3,
+          "file": "3_第三节 管理层讨论与分析.md",
+          "section_id": "3.1",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、公司行业分类",
+              "level": 3,
+              "line_start": 5,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.1.1",
+              "line_end": 8,
+              "subsections": []
+            },
+            {
+              "title": "2、行业发展状况及发展趋势",
+              "level": 3,
+              "line_start": 9,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.1.2",
+              "line_end": 26,
+              "subsections": []
+            },
+            {
+              "title": "3、公司行业地位",
+              "level": 3,
+              "line_start": 27,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.1.3",
+              "line_end": 30,
+              "subsections": []
+            },
+            {
+              "title": "4、主要法律法规及行业政策",
+              "level": 3,
+              "line_start": 31,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.1.4",
+              "line_end": 36,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "二、报告期内公司从事的主要业务",
+          "level": 2,
+          "line_start": 37,
+          "file": "3_第三节 管理层讨论与分析.md",
+          "section_id": "3.2",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、主要业务",
+              "level": 3,
+              "line_start": 41,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.2.1",
+              "line_end": 46,
+              "subsections": []
+            },
+            {
+              "title": "2、主要产品及其用途",
+              "level": 3,
+              "line_start": 47,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.2.2",
+              "line_end": 76,
+              "subsections": []
+            },
+            {
+              "title": "3、经营模式",
+              "level": 3,
+              "line_start": 77,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.2.3",
+              "line_end": 82,
+              "subsections": []
+            },
+            {
+              "title": "4、主要的业绩驱动因素",
+              "level": 3,
+              "line_start": 83,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.2.4",
+              "line_end": 94,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "三、核心竞争力分析",
+          "level": 2,
+          "line_start": 95,
+          "file": "3_第三节 管理层讨论与分析.md",
+          "section_id": "3.3",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、全方位的研发优势",
+              "level": 3,
+              "line_start": 97,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.3.1",
+              "line_end": 102,
+              "subsections": []
+            },
+            {
+              "title": "2、先进的产品矩阵",
+              "level": 3,
+              "line_start": 103,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.3.2",
+              "line_end": 108,
+              "subsections": []
+            },
+            {
+              "title": "3、全面的客户合作",
+              "level": 3,
+              "line_start": 109,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.3.3",
+              "line_end": 114,
+              "subsections": []
+            },
+            {
+              "title": "4、领先的可持续发展实践",
+              "level": 3,
+              "line_start": 115,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.3.4",
+              "line_end": 118,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "四、主营业务分析",
+          "level": 2,
+          "line_start": 119,
+          "file": "3_第三节 管理层讨论与分析.md",
+          "section_id": "3.4",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、概述",
+              "level": 3,
+              "line_start": 121,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.4.1",
+              "line_end": 152,
+              "subsections": []
+            },
+            {
+              "title": "2、收入与成本",
+              "level": 3,
+              "line_start": 153,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.4.2",
+              "line_end": 263,
+              "subsections": []
+            },
+            {
+              "title": "3、费用",
+              "level": 3,
+              "line_start": 264,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.4.3",
+              "line_end": 269,
+              "subsections": []
+            },
+            {
+              "title": "4、研发投入",
+              "level": 3,
+              "line_start": 270,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.4.4",
+              "line_end": 295,
+              "subsections": []
+            },
+            {
+              "title": "5、现金流",
+              "level": 3,
+              "line_start": 296,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.4.5",
+              "line_end": 313,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "五、非主营业务情况",
+          "level": 2,
+          "line_start": 314,
+          "file": "3_第三节 管理层讨论与分析.md",
+          "section_id": "3.5",
+          "line_end": 319,
+          "subsections": []
+        },
+        {
+          "title": "六、资产及负债状况分析",
+          "level": 2,
+          "line_start": 320,
+          "file": "3_第三节 管理层讨论与分析.md",
+          "section_id": "3.6",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、资产构成重大变动情况",
+              "level": 3,
+              "line_start": 322,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.6.1",
+              "line_end": 331,
+              "subsections": []
+            },
+            {
+              "title": "2、以公允价值计量的资产和负债",
+              "level": 3,
+              "line_start": 332,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.6.2",
+              "line_end": 342,
+              "subsections": []
+            },
+            {
+              "title": "3、截至报告期末的资产权利受限情况",
+              "level": 3,
+              "line_start": 343,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.6.3",
+              "line_end": 348,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "七、投资状况分析",
+          "level": 2,
+          "line_start": 349,
+          "file": "3_第三节 管理层讨论与分析.md",
+          "section_id": "3.7",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、总体情况",
+              "level": 3,
+              "line_start": 351,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.7.1",
+              "line_end": 356,
+              "subsections": []
+            },
+            {
+              "title": "2、报告期内获取的重大的股权投资情况",
+              "level": 3,
+              "line_start": 357,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.7.2",
+              "line_end": 360,
+              "subsections": []
+            },
+            {
+              "title": "3、报告期内正在进行的重大的非股权投资情况",
+              "level": 3,
+              "line_start": 361,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.7.3",
+              "line_end": 367,
+              "subsections": []
+            },
+            {
+              "title": "4、金融资产投资",
+              "level": 3,
+              "line_start": 368,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.7.4",
+              "line_end": 403,
+              "subsections": []
+            },
+            {
+              "title": "5、募集资金使用情况",
+              "level": 3,
+              "line_start": 404,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.7.5",
+              "line_end": 430,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "八、重大资产和股权出售",
+          "level": 2,
+          "line_start": 431,
+          "file": "3_第三节 管理层讨论与分析.md",
+          "section_id": "3.8",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、出售重大资产情况",
+              "level": 3,
+              "line_start": 433,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.8.1",
+              "line_end": 438,
+              "subsections": []
+            },
+            {
+              "title": "2、出售重大股权情况",
+              "level": 3,
+              "line_start": 439,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.8.2",
+              "line_end": 444,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "九、主要控股参股公司分析",
+          "level": 2,
+          "line_start": 445,
+          "file": "3_第三节 管理层讨论与分析.md",
+          "section_id": "3.9",
+          "line_end": 450,
+          "subsections": []
+        },
+        {
+          "title": "十、公司控制的结构化主体情况",
+          "level": 2,
+          "line_start": 451,
+          "file": "3_第三节 管理层讨论与分析.md",
+          "section_id": "3.10",
+          "line_end": 454,
+          "subsections": []
+        },
+        {
+          "title": "十一、公司未来发展的展望",
+          "level": 2,
+          "line_start": 455,
+          "file": "3_第三节 管理层讨论与分析.md",
+          "section_id": "3.11",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、行业格局和趋势",
+              "level": 3,
+              "line_start": 457,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.11.1",
+              "line_end": 460,
+              "subsections": []
+            },
+            {
+              "title": "2、公司发展战略",
+              "level": 3,
+              "line_start": 461,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.11.2",
+              "line_end": 482,
+              "subsections": []
+            },
+            {
+              "title": "3、经营计划",
+              "level": 3,
+              "line_start": 483,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.11.3",
+              "line_end": 488,
+              "subsections": []
+            },
+            {
+              "title": "4、可能面对的风险",
+              "level": 3,
+              "line_start": 489,
+              "file": "3_第三节 管理层讨论与分析.md",
+              "section_id": "3.11.4",
+              "line_end": 514,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十二、报告期内接待调研、沟通、采访等活动登记表",
+          "level": 2,
+          "line_start": 515,
+          "file": "3_第三节 管理层讨论与分析.md",
+          "section_id": "3.12",
+          "line_end": 536,
+          "subsections": []
+        },
+        {
+          "title": "十三、市值管理制度和估值提升计划的制定落实情况",
+          "level": 2,
+          "line_start": 537,
+          "file": "3_第三节 管理层讨论与分析.md",
+          "section_id": "3.13",
+          "line_end": 548,
+          "subsections": []
+        },
+        {
+          "title": "十四、“质量回报双提升”行动方案贯彻落实情况",
+          "level": 2,
+          "line_start": 549,
+          "file": "3_第三节 管理层讨论与分析.md",
+          "section_id": "3.14",
+          "line_end": 549,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "第四节 公司治理",
+      "level": 1,
+      "line_start": 1,
+      "file": "4_第四节 公司治理.md",
+      "section_id": "4",
+      "line_end": null,
+      "subsections": [
+        {
+          "title": "一、公司治理的基本状况",
+          "level": 2,
+          "line_start": 3,
+          "file": "4_第四节 公司治理.md",
+          "section_id": "4.1",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、关于公司治理制度",
+              "level": 3,
+              "line_start": 7,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.1.1",
+              "line_end": 10,
+              "subsections": []
+            },
+            {
+              "title": "2、关于股东与股东（大）会",
+              "level": 3,
+              "line_start": 11,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.1.2",
+              "line_end": 16,
+              "subsections": []
+            },
+            {
+              "title": "3、关于董事和董事会",
+              "level": 3,
+              "line_start": 17,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.1.3",
+              "line_end": 26,
+              "subsections": []
+            },
+            {
+              "title": "4、关于监事和监事会",
+              "level": 3,
+              "line_start": 27,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.1.4",
+              "line_end": 32,
+              "subsections": []
+            },
+            {
+              "title": "5、关于经营管理层",
+              "level": 3,
+              "line_start": 33,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.1.5",
+              "line_end": 36,
+              "subsections": []
+            },
+            {
+              "title": "6、关于绩效评价与激励约束机制",
+              "level": 3,
+              "line_start": 37,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.1.6",
+              "line_end": 40,
+              "subsections": []
+            },
+            {
+              "title": "7、关于利益相关者",
+              "level": 3,
+              "line_start": 41,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.1.7",
+              "line_end": 46,
+              "subsections": []
+            },
+            {
+              "title": "8、关于信息披露与透明度",
+              "level": 3,
+              "line_start": 47,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.1.8",
+              "line_end": 60,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "二、公司相对于控股股东、实际控制人在保证公司资产、人员、财务、机构、业务等方面的独立情况",
+          "level": 2,
+          "line_start": 61,
+          "file": "4_第四节 公司治理.md",
+          "section_id": "4.2",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、业务独立方面",
+              "level": 3,
+              "line_start": 65,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.2.1",
+              "line_end": 68,
+              "subsections": []
+            },
+            {
+              "title": "2、人员独立方面",
+              "level": 3,
+              "line_start": 69,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.2.2",
+              "line_end": 72,
+              "subsections": []
+            },
+            {
+              "title": "3、财务独立方面",
+              "level": 3,
+              "line_start": 73,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.2.3",
+              "line_end": 76,
+              "subsections": []
+            },
+            {
+              "title": "4、机构独立方面",
+              "level": 3,
+              "line_start": 77,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.2.4",
+              "line_end": 80,
+              "subsections": []
+            },
+            {
+              "title": "5、资产方面",
+              "level": 3,
+              "line_start": 81,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.2.5",
+              "line_end": 84,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "三、同业竞争情况",
+          "level": 2,
+          "line_start": 85,
+          "file": "4_第四节 公司治理.md",
+          "section_id": "4.3",
+          "line_end": 88,
+          "subsections": []
+        },
+        {
+          "title": "四、报告期内召开的年度股东大会和临时股东大会的有关情况",
+          "level": 2,
+          "line_start": 89,
+          "file": "4_第四节 公司治理.md",
+          "section_id": "4.4",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "2、表决权恢复的优先股股东请求召开临时股东大会",
+              "level": 3,
+              "line_start": 95,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.4.2",
+              "line_end": 98,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "五、公司具有表决权差异安排",
+          "level": 2,
+          "line_start": 99,
+          "file": "4_第四节 公司治理.md",
+          "section_id": "4.5",
+          "line_end": 102,
+          "subsections": []
+        },
+        {
+          "title": "六、红筹架构公司治理情况",
+          "level": 2,
+          "line_start": 103,
+          "file": "4_第四节 公司治理.md",
+          "section_id": "4.6",
+          "line_end": 106,
+          "subsections": []
+        },
+        {
+          "title": "七、董事、监事和高级管理人员情况",
+          "level": 2,
+          "line_start": 107,
+          "file": "4_第四节 公司治理.md",
+          "section_id": "4.7",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "2、任职情况",
+              "level": 3,
+              "line_start": 125,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.7.2",
+              "line_end": 148,
+              "subsections": []
+            },
+            {
+              "title": "3、董事、监事、高级管理人员报酬情况",
+              "level": 3,
+              "line_start": 149,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.7.3",
+              "line_end": 162,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "八、报告期内董事履行职责的情况",
+          "level": 2,
+          "line_start": 163,
+          "file": "4_第四节 公司治理.md",
+          "section_id": "4.8",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、本报告期董事会情况",
+              "level": 3,
+              "line_start": 165,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.8.1",
+              "line_end": 170,
+              "subsections": []
+            },
+            {
+              "title": "2、董事出席董事会及股东大会的情况",
+              "level": 3,
+              "line_start": 171,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.8.2",
+              "line_end": 174,
+              "subsections": []
+            },
+            {
+              "title": "3、董事对公司有关事项提出异议的情况",
+              "level": 3,
+              "line_start": 175,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.8.3",
+              "line_end": 182,
+              "subsections": []
+            },
+            {
+              "title": "4、董事履行职责的其他说明",
+              "level": 3,
+              "line_start": 183,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.8.4",
+              "line_end": 190,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "九、董事会下设专门委员会在报告期内的情况",
+          "level": 2,
+          "line_start": 191,
+          "file": "4_第四节 公司治理.md",
+          "section_id": "4.9",
+          "line_end": 194,
+          "subsections": []
+        },
+        {
+          "title": "十、监事会工作情况",
+          "level": 2,
+          "line_start": 195,
+          "file": "4_第四节 公司治理.md",
+          "section_id": "4.10",
+          "line_end": 202,
+          "subsections": []
+        },
+        {
+          "title": "十一、公司员工情况",
+          "level": 2,
+          "line_start": 203,
+          "file": "4_第四节 公司治理.md",
+          "section_id": "4.11",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、员工数量、专业构成及教育程度",
+              "level": 3,
+              "line_start": 205,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.11.1",
+              "line_end": 208,
+              "subsections": []
+            },
+            {
+              "title": "2、薪酬政策",
+              "level": 3,
+              "line_start": 209,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.11.2",
+              "line_end": 214,
+              "subsections": []
+            },
+            {
+              "title": "3、培训计划",
+              "level": 3,
+              "line_start": 215,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.11.3",
+              "line_end": 220,
+              "subsections": []
+            },
+            {
+              "title": "4、劳务外包情况",
+              "level": 3,
+              "line_start": 221,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.11.4",
+              "line_end": 226,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十二、公司利润分配及资本公积金转增股本情况",
+          "level": 2,
+          "line_start": 227,
+          "file": "4_第四节 公司治理.md",
+          "section_id": "4.12",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、报告期内普通股利润分配政策，特别是现金分红政策的制定、执行或调整情况",
+              "level": 3,
+              "line_start": 229,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.12.1",
+              "line_end": 242,
+              "subsections": []
+            },
+            {
+              "title": "2、公司报告期利润分配预案及资本公积金转增股本预案与公司章程和分红管理办法等的相关规定一致",
+              "level": 3,
+              "line_start": 243,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.12.2",
+              "line_end": 248,
+              "subsections": []
+            },
+            {
+              "title": "3、本年度利润分配及资本公积金转增股本情况",
+              "level": 3,
+              "line_start": 249,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.12.3",
+              "line_end": 257,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十三、公司股权激励计划、员工持股计划或其他员工激励措施的实施情况",
+          "level": 2,
+          "line_start": 258,
+          "file": "4_第四节 公司治理.md",
+          "section_id": "4.13",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、股权激励",
+              "level": 3,
+              "line_start": 262,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.13.1",
+              "line_end": 289,
+              "subsections": []
+            },
+            {
+              "title": "2、员工持股计划的实施情况",
+              "level": 3,
+              "line_start": 290,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.13.2",
+              "line_end": 293,
+              "subsections": []
+            },
+            {
+              "title": "3、其他员工激励措施",
+              "level": 3,
+              "line_start": 294,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.13.3",
+              "line_end": 297,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十四、报告期内的内部控制制度建设及实施情况",
+          "level": 2,
+          "line_start": 298,
+          "file": "4_第四节 公司治理.md",
+          "section_id": "4.14",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、内部控制建设及实施情况",
+              "level": 3,
+              "line_start": 300,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.14.1",
+              "line_end": 305,
+              "subsections": []
+            },
+            {
+              "title": "2、报告期内发现的内部控制重大缺陷的具体情况",
+              "level": 3,
+              "line_start": 306,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.14.2",
+              "line_end": 309,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十五、公司报告期内对子公司的管理控制情况",
+          "level": 2,
+          "line_start": 310,
+          "file": "4_第四节 公司治理.md",
+          "section_id": "4.15",
+          "line_end": 317,
+          "subsections": []
+        },
+        {
+          "title": "十六、内部控制评价报告及内部控制审计报告",
+          "level": 2,
+          "line_start": 318,
+          "file": "4_第四节 公司治理.md",
+          "section_id": "4.16",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、内控评价报告",
+              "level": 3,
+              "line_start": 320,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.16.1",
+              "line_end": 323,
+              "subsections": []
+            },
+            {
+              "title": "2、内部控制审计报告",
+              "level": 3,
+              "line_start": 324,
+              "file": "4_第四节 公司治理.md",
+              "section_id": "4.16.2",
+              "line_end": 337,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十七、上市公司治理专项行动自查问题整改情况",
+          "level": 2,
+          "line_start": 338,
+          "file": "4_第四节 公司治理.md",
+          "section_id": "4.17",
+          "line_end": 338,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "第五节 环境和社会责任",
+      "level": 1,
+      "line_start": 1,
+      "file": "5_第五节 环境和社会责任.md",
+      "section_id": "5",
+      "line_end": null,
+      "subsections": [
+        {
+          "title": "一、重大环保问题",
+          "level": 2,
+          "line_start": 3,
+          "file": "5_第五节 环境和社会责任.md",
+          "section_id": "5.1",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、环境保护相关政策和行业标准",
+              "level": 3,
+              "line_start": 11,
+              "file": "5_第五节 环境和社会责任.md",
+              "section_id": "5.1.1",
+              "line_end": 14,
+              "subsections": []
+            },
+            {
+              "title": "2、环境保护行政许可情况",
+              "level": 3,
+              "line_start": 15,
+              "file": "5_第五节 环境和社会责任.md",
+              "section_id": "5.1.2",
+              "line_end": 18,
+              "subsections": []
+            },
+            {
+              "title": "3、行业排放标准及生产经营活动中涉及的污染物排放的具体情况",
+              "level": 3,
+              "line_start": 19,
+              "file": "5_第五节 环境和社会责任.md",
+              "section_id": "5.1.3",
+              "line_end": 24,
+              "subsections": []
+            },
+            {
+              "title": "4、对污染物的处理",
+              "level": 3,
+              "line_start": 25,
+              "file": "5_第五节 环境和社会责任.md",
+              "section_id": "5.1.4",
+              "line_end": 28,
+              "subsections": []
+            },
+            {
+              "title": "5、环境自行监测方案",
+              "level": 3,
+              "line_start": 29,
+              "file": "5_第五节 环境和社会责任.md",
+              "section_id": "5.1.5",
+              "line_end": 32,
+              "subsections": []
+            },
+            {
+              "title": "6、突发环境事件应急预案",
+              "level": 3,
+              "line_start": 33,
+              "file": "5_第五节 环境和社会责任.md",
+              "section_id": "5.1.6",
+              "line_end": 36,
+              "subsections": []
+            },
+            {
+              "title": "7、环境治理和保护的投入及缴纳环境保护税的相关情况",
+              "level": 3,
+              "line_start": 37,
+              "file": "5_第五节 环境和社会责任.md",
+              "section_id": "5.1.7",
+              "line_end": 40,
+              "subsections": []
+            },
+            {
+              "title": "8、在报告期内为减少其碳排放所采取的措施及效果",
+              "level": 3,
+              "line_start": 41,
+              "file": "5_第五节 环境和社会责任.md",
+              "section_id": "5.1.8",
+              "line_end": 56,
+              "subsections": []
+            },
+            {
+              "title": "9、报告期内因环境问题受到行政处罚的情况",
+              "level": 3,
+              "line_start": 57,
+              "file": "5_第五节 环境和社会责任.md",
+              "section_id": "5.1.9",
+              "line_end": 60,
+              "subsections": []
+            },
+            {
+              "title": "10、其他环保相关信息",
+              "level": 3,
+              "line_start": 61,
+              "file": "5_第五节 环境和社会责任.md",
+              "section_id": "5.1.10",
+              "line_end": 64,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "二、社会责任情况",
+          "level": 2,
+          "line_start": 65,
+          "file": "5_第五节 环境和社会责任.md",
+          "section_id": "5.2",
+          "line_end": 70,
+          "subsections": []
+        },
+        {
+          "title": "三、巩固拓展脱贫攻坚成果、乡村振兴的情况",
+          "level": 2,
+          "line_start": 71,
+          "file": "5_第五节 环境和社会责任.md",
+          "section_id": "5.3",
+          "line_end": 71,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "第六节 重要事项",
+      "level": 1,
+      "line_start": 1,
+      "file": "6_第六节 重要事项.md",
+      "section_id": "6",
+      "line_end": null,
+      "subsections": [
+        {
+          "title": "一、承诺事项履行情况",
+          "level": 2,
+          "line_start": 3,
+          "file": "6_第六节 重要事项.md",
+          "section_id": "6.1",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、公司实际控制人、股东、关联方、收购人以及公司等承诺相关方在报告期内履行完毕及截至报告期末尚未履行完毕的承诺事项",
+              "level": 3,
+              "line_start": 5,
+              "file": "6_第六节 重要事项.md",
+              "section_id": "6.1.1",
+              "line_end": 10,
+              "subsections": []
+            },
+            {
+              "title": "2、公司资产或项目存在盈利预测，且报告期仍处在盈利预测期间，公司就资产或项目达到原盈利预测及其原因做出说明",
+              "level": 3,
+              "line_start": 11,
+              "file": "6_第六节 重要事项.md",
+              "section_id": "6.1.2",
+              "line_end": 18,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "二、控股股东及其他关联方对上市公司的非经营性占用资金情况",
+          "level": 2,
+          "line_start": 19,
+          "file": "6_第六节 重要事项.md",
+          "section_id": "6.2",
+          "line_end": 24,
+          "subsections": []
+        },
+        {
+          "title": "三、违规对外担保情况",
+          "level": 2,
+          "line_start": 25,
+          "file": "6_第六节 重要事项.md",
+          "section_id": "6.3",
+          "line_end": 30,
+          "subsections": []
+        },
+        {
+          "title": "四、董事会对最近一期“非标准审计报告”相关情况的说明",
+          "level": 2,
+          "line_start": 31,
+          "file": "6_第六节 重要事项.md",
+          "section_id": "6.4",
+          "line_end": 34,
+          "subsections": []
+        },
+        {
+          "title": "五、董事会、监事会、独立董事（如有）对会计师事务所本报告期“非标准审计报告”的说明",
+          "level": 2,
+          "line_start": 35,
+          "file": "6_第六节 重要事项.md",
+          "section_id": "6.5",
+          "line_end": 38,
+          "subsections": []
+        },
+        {
+          "title": "六、 董事会关于报告期会计政策、会计估计变更或重大会计差错更正的说明",
+          "level": 2,
+          "line_start": 39,
+          "file": "6_第六节 重要事项.md",
+          "section_id": "6.6",
+          "line_end": 42,
+          "subsections": []
+        },
+        {
+          "title": "七、与上年度财务报告相比，合并报表范围发生变化的情况说明",
+          "level": 2,
+          "line_start": 43,
+          "file": "6_第六节 重要事项.md",
+          "section_id": "6.7",
+          "line_end": 48,
+          "subsections": []
+        },
+        {
+          "title": "八、聘任、解聘会计师事务所情况",
+          "level": 2,
+          "line_start": 49,
+          "file": "6_第六节 重要事项.md",
+          "section_id": "6.8",
+          "line_end": 64,
+          "subsections": []
+        },
+        {
+          "title": "九、年度报告披露后面临退市情况",
+          "level": 2,
+          "line_start": 65,
+          "file": "6_第六节 重要事项.md",
+          "section_id": "6.9",
+          "line_end": 68,
+          "subsections": []
+        },
+        {
+          "title": "十、破产重整相关事项",
+          "level": 2,
+          "line_start": 69,
+          "file": "6_第六节 重要事项.md",
+          "section_id": "6.10",
+          "line_end": 74,
+          "subsections": []
+        },
+        {
+          "title": "十一、重大诉讼、仲裁事项",
+          "level": 2,
+          "line_start": 75,
+          "file": "6_第六节 重要事项.md",
+          "section_id": "6.11",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、重大诉讼仲裁事项",
+              "level": 3,
+              "line_start": 77,
+              "file": "6_第六节 重要事项.md",
+              "section_id": "6.11.1",
+              "line_end": 82,
+              "subsections": []
+            },
+            {
+              "title": "2、其他诉讼仲裁事项",
+              "level": 3,
+              "line_start": 83,
+              "file": "6_第六节 重要事项.md",
+              "section_id": "6.11.2",
+              "line_end": 88,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十二、处罚及整改情况",
+          "level": 2,
+          "line_start": 89,
+          "file": "6_第六节 重要事项.md",
+          "section_id": "6.12",
+          "line_end": 94,
+          "subsections": []
+        },
+        {
+          "title": "十三、公司及其控股股东、实际控制人的诚信状况",
+          "level": 2,
+          "line_start": 95,
+          "file": "6_第六节 重要事项.md",
+          "section_id": "6.13",
+          "line_end": 98,
+          "subsections": []
+        },
+        {
+          "title": "十四、重大关联交易",
+          "level": 2,
+          "line_start": 99,
+          "file": "6_第六节 重要事项.md",
+          "section_id": "6.14",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、与日常经营相关的关联交易",
+              "level": 3,
+              "line_start": 101,
+              "file": "6_第六节 重要事项.md",
+              "section_id": "6.14.1",
+              "line_end": 110,
+              "subsections": []
+            },
+            {
+              "title": "2、资产或股权收购、出售发生的关联交易",
+              "level": 3,
+              "line_start": 111,
+              "file": "6_第六节 重要事项.md",
+              "section_id": "6.14.2",
+              "line_end": 116,
+              "subsections": []
+            },
+            {
+              "title": "3、共同对外投资的关联交易",
+              "level": 3,
+              "line_start": 117,
+              "file": "6_第六节 重要事项.md",
+              "section_id": "6.14.3",
+              "line_end": 122,
+              "subsections": []
+            },
+            {
+              "title": "4、关联债权债务往来",
+              "level": 3,
+              "line_start": 123,
+              "file": "6_第六节 重要事项.md",
+              "section_id": "6.14.4",
+              "line_end": 128,
+              "subsections": []
+            },
+            {
+              "title": "5、与存在关联关系的财务公司的往来情况",
+              "level": 3,
+              "line_start": 129,
+              "file": "6_第六节 重要事项.md",
+              "section_id": "6.14.5",
+              "line_end": 134,
+              "subsections": []
+            },
+            {
+              "title": "6、公司控股的财务公司与关联方的往来情况",
+              "level": 3,
+              "line_start": 135,
+              "file": "6_第六节 重要事项.md",
+              "section_id": "6.14.6",
+              "line_end": 140,
+              "subsections": []
+            },
+            {
+              "title": "7、其他重大关联交易",
+              "level": 3,
+              "line_start": 141,
+              "file": "6_第六节 重要事项.md",
+              "section_id": "6.14.7",
+              "line_end": 146,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十五、重大合同及其履行情况",
+          "level": 2,
+          "line_start": 147,
+          "file": "6_第六节 重要事项.md",
+          "section_id": "6.15",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、托管、承包、租赁事项情况",
+              "level": 3,
+              "line_start": 149,
+              "file": "6_第六节 重要事项.md",
+              "section_id": "6.15.1",
+              "line_end": 168,
+              "subsections": []
+            },
+            {
+              "title": "2、重大担保",
+              "level": 3,
+              "line_start": 169,
+              "file": "6_第六节 重要事项.md",
+              "section_id": "6.15.2",
+              "line_end": 180,
+              "subsections": []
+            },
+            {
+              "title": "3、委托他人进行现金资产管理情况",
+              "level": 3,
+              "line_start": 181,
+              "file": "6_第六节 重要事项.md",
+              "section_id": "6.15.3",
+              "line_end": 206,
+              "subsections": []
+            },
+            {
+              "title": "4、其他重大合同",
+              "level": 3,
+              "line_start": 207,
+              "file": "6_第六节 重要事项.md",
+              "section_id": "6.15.4",
+              "line_end": 212,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十六、其他重大事项的说明",
+          "level": 2,
+          "line_start": 213,
+          "file": "6_第六节 重要事项.md",
+          "section_id": "6.16",
+          "line_end": 220,
+          "subsections": []
+        },
+        {
+          "title": "十七、公司子公司重大事项",
+          "level": 2,
+          "line_start": 221,
+          "file": "6_第六节 重要事项.md",
+          "section_id": "6.17",
+          "line_end": 221,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "第七节 股份变动及股东情况",
+      "level": 1,
+      "line_start": 1,
+      "file": "7_第七节 股份变动及股东情况.md",
+      "section_id": "7",
+      "line_end": null,
+      "subsections": [
+        {
+          "title": "一、股份变动情况",
+          "level": 2,
+          "line_start": 3,
+          "file": "7_第七节 股份变动及股东情况.md",
+          "section_id": "7.1",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、股份变动情况",
+              "level": 3,
+              "line_start": 5,
+              "file": "7_第七节 股份变动及股东情况.md",
+              "section_id": "7.1.1",
+              "line_end": 50,
+              "subsections": []
+            },
+            {
+              "title": "2、限售股份变动情况",
+              "level": 3,
+              "line_start": 51,
+              "file": "7_第七节 股份变动及股东情况.md",
+              "section_id": "7.1.2",
+              "line_end": 60,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "二、证券发行与上市情况",
+          "level": 2,
+          "line_start": 61,
+          "file": "7_第七节 股份变动及股东情况.md",
+          "section_id": "7.2",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、报告期内证券发行（不含优先股）情况",
+              "level": 3,
+              "line_start": 63,
+              "file": "7_第七节 股份变动及股东情况.md",
+              "section_id": "7.2.1",
+              "line_end": 80,
+              "subsections": []
+            },
+            {
+              "title": "2、公司股份总数及股东结构的变动、公司资产和负债结构的变动情况说明",
+              "level": 3,
+              "line_start": 81,
+              "file": "7_第七节 股份变动及股东情况.md",
+              "section_id": "7.2.2",
+              "line_end": 86,
+              "subsections": []
+            },
+            {
+              "title": "3、现存的内部职工股情况",
+              "level": 3,
+              "line_start": 87,
+              "file": "7_第七节 股份变动及股东情况.md",
+              "section_id": "7.2.3",
+              "line_end": 90,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "三、股东和实际控制人情况",
+          "level": 2,
+          "line_start": 91,
+          "file": "7_第七节 股份变动及股东情况.md",
+          "section_id": "7.3",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、公司股东数量及持股情况",
+              "level": 3,
+              "line_start": 93,
+              "file": "7_第七节 股份变动及股东情况.md",
+              "section_id": "7.3.1",
+              "line_end": 122,
+              "subsections": []
+            },
+            {
+              "title": "2、公司控股股东情况",
+              "level": 3,
+              "line_start": 123,
+              "file": "7_第七节 股份变动及股东情况.md",
+              "section_id": "7.3.2",
+              "line_end": 138,
+              "subsections": []
+            },
+            {
+              "title": "3、公司实际控制人及其一致行动人",
+              "level": 3,
+              "line_start": 139,
+              "file": "7_第七节 股份变动及股东情况.md",
+              "section_id": "7.3.3",
+              "line_end": 172,
+              "subsections": []
+            },
+            {
+              "title": "4、公司控股股东或第一大股东及其一致行动人累计质押股份数量占其所持公司股份数量比例达到 $8 0 \\%$",
+              "level": 3,
+              "line_start": 173,
+              "file": "7_第七节 股份变动及股东情况.md",
+              "section_id": "7.3.4",
+              "line_end": 176,
+              "subsections": []
+            },
+            {
+              "title": "5、其他持股在 $1 0 \\%$ 以上的法人股东",
+              "level": 3,
+              "line_start": 177,
+              "file": "7_第七节 股份变动及股东情况.md",
+              "section_id": "7.3.5",
+              "line_end": 180,
+              "subsections": []
+            },
+            {
+              "title": "6、控股股东、实际控制人、重组方及其他承诺主体股份限制减持情况",
+              "level": 3,
+              "line_start": 181,
+              "file": "7_第七节 股份变动及股东情况.md",
+              "section_id": "7.3.6",
+              "line_end": 184,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "四、股份回购在报告期的具体实施情况",
+          "level": 2,
+          "line_start": 185,
+          "file": "7_第七节 股份变动及股东情况.md",
+          "section_id": "7.4",
+          "line_end": 185,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "第八节 优先股相关情况",
+      "level": 1,
+      "line_start": 1,
+      "file": "8_第八节 优先股相关情况.md",
+      "section_id": "8",
+      "line_end": 1,
+      "subsections": []
+    },
+    {
+      "title": "第九节 债券相关情况",
+      "level": 1,
+      "line_start": 1,
+      "file": "9_第九节 债券相关情况.md",
+      "section_id": "9",
+      "line_end": null,
+      "subsections": [
+        {
+          "title": "一、企业债券",
+          "level": 2,
+          "line_start": 3,
+          "file": "9_第九节 债券相关情况.md",
+          "section_id": "9.1",
+          "line_end": 8,
+          "subsections": []
+        },
+        {
+          "title": "二、公司债券",
+          "level": 2,
+          "line_start": 9,
+          "file": "9_第九节 债券相关情况.md",
+          "section_id": "9.2",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、公司债券基本信息",
+              "level": 3,
+              "line_start": 13,
+              "file": "9_第九节 债券相关情况.md",
+              "section_id": "9.2.1",
+              "line_end": 24,
+              "subsections": []
+            },
+            {
+              "title": "2、发行人或投资者选择权条款、投资者保护条款的触发和执行情况",
+              "level": 3,
+              "line_start": 25,
+              "file": "9_第九节 债券相关情况.md",
+              "section_id": "9.2.2",
+              "line_end": 28,
+              "subsections": []
+            },
+            {
+              "title": "3、中介机构的情况",
+              "level": 3,
+              "line_start": 29,
+              "file": "9_第九节 债券相关情况.md",
+              "section_id": "9.2.3",
+              "line_end": 36,
+              "subsections": []
+            },
+            {
+              "title": "4、募集资金使用情况",
+              "level": 3,
+              "line_start": 37,
+              "file": "9_第九节 债券相关情况.md",
+              "section_id": "9.2.4",
+              "line_end": 53,
+              "subsections": []
+            },
+            {
+              "title": "5、报告期内信用评级结果调整情况",
+              "level": 3,
+              "line_start": 54,
+              "file": "9_第九节 债券相关情况.md",
+              "section_id": "9.2.5",
+              "line_end": 61,
+              "subsections": []
+            },
+            {
+              "title": "6、担保情况、偿债计划及其他偿债保障措施在报告期内的执行情况和变化情况及对债券投资者权益的影响",
+              "level": 3,
+              "line_start": 62,
+              "file": "9_第九节 债券相关情况.md",
+              "section_id": "9.2.6",
+              "line_end": 67,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "三、非金融企业债务融资工具",
+          "level": 2,
+          "line_start": 68,
+          "file": "9_第九节 债券相关情况.md",
+          "section_id": "9.3",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、非金融企业债务融资工具基本信息",
+              "level": 3,
+              "line_start": 72,
+              "file": "9_第九节 债券相关情况.md",
+              "section_id": "9.3.1",
+              "line_end": 81,
+              "subsections": []
+            },
+            {
+              "title": "2、发行人或投资者选择权条款、投资者保护条款的触发和执行情况",
+              "level": 3,
+              "line_start": 82,
+              "file": "9_第九节 债券相关情况.md",
+              "section_id": "9.3.2",
+              "line_end": 85,
+              "subsections": []
+            },
+            {
+              "title": "3、中介机构的情况",
+              "level": 3,
+              "line_start": 86,
+              "file": "9_第九节 债券相关情况.md",
+              "section_id": "9.3.3",
+              "line_end": 93,
+              "subsections": []
+            },
+            {
+              "title": "4、募集资金使用情况",
+              "level": 3,
+              "line_start": 94,
+              "file": "9_第九节 债券相关情况.md",
+              "section_id": "9.3.4",
+              "line_end": 109,
+              "subsections": []
+            },
+            {
+              "title": "5、报告期内信用评级结果调整情况",
+              "level": 3,
+              "line_start": 110,
+              "file": "9_第九节 债券相关情况.md",
+              "section_id": "9.3.5",
+              "line_end": 115,
+              "subsections": []
+            },
+            {
+              "title": "6、担保情况、偿债计划及其他偿债保障措施在报告期内的执行情况和变化情况及对债券投资者权益的影响",
+              "level": 3,
+              "line_start": 116,
+              "file": "9_第九节 债券相关情况.md",
+              "section_id": "9.3.6",
+              "line_end": 121,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "四、可转换公司债券",
+          "level": 2,
+          "line_start": 122,
+          "file": "9_第九节 债券相关情况.md",
+          "section_id": "9.4",
+          "line_end": 127,
+          "subsections": []
+        },
+        {
+          "title": "五、报告期内合并报表范围亏损超过上年末净资产 $1 0 \\%$",
+          "level": 2,
+          "line_start": 128,
+          "file": "9_第九节 债券相关情况.md",
+          "section_id": "9.5",
+          "line_end": 131,
+          "subsections": []
+        },
+        {
+          "title": "六、报告期末除债券外的有息债务逾期情况",
+          "level": 2,
+          "line_start": 132,
+          "file": "9_第九节 债券相关情况.md",
+          "section_id": "9.6",
+          "line_end": 135,
+          "subsections": []
+        },
+        {
+          "title": "七、报告期内是否有违反规章制度的情况",
+          "level": 2,
+          "line_start": 136,
+          "file": "9_第九节 债券相关情况.md",
+          "section_id": "9.7",
+          "line_end": 139,
+          "subsections": []
+        },
+        {
+          "title": "八、截至报告期末公司近两年的主要会计数据和财务指标",
+          "level": 2,
+          "line_start": 140,
+          "file": "9_第九节 债券相关情况.md",
+          "section_id": "9.8",
+          "line_end": 140,
+          "subsections": []
+        }
+      ]
+    },
+    {
+      "title": "第十节 财务报告",
+      "level": 1,
+      "line_start": 1,
+      "file": "10_第十节 财务报告.md",
+      "section_id": "10",
+      "line_end": null,
+      "subsections": [
+        {
+          "title": "一、审计报告",
+          "level": 2,
+          "line_start": 3,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.1",
+          "line_end": 112,
+          "subsections": []
+        },
+        {
+          "title": "二、财务报表",
+          "level": 2,
+          "line_start": 113,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.2",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、合并资产负债表",
+              "level": 3,
+              "line_start": 117,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.2.1",
+              "line_end": 130,
+              "subsections": []
+            },
+            {
+              "title": "2、母公司资产负债表",
+              "level": 3,
+              "line_start": 131,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.2.2",
+              "line_end": 136,
+              "subsections": []
+            },
+            {
+              "title": "3、合并利润表",
+              "level": 3,
+              "line_start": 137,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.2.3",
+              "line_end": 150,
+              "subsections": []
+            },
+            {
+              "title": "4、母公司利润表",
+              "level": 3,
+              "line_start": 151,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.2.4",
+              "line_end": 156,
+              "subsections": []
+            },
+            {
+              "title": "5、合并现金流量表",
+              "level": 3,
+              "line_start": 157,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.2.5",
+              "line_end": 162,
+              "subsections": []
+            },
+            {
+              "title": "6、母公司现金流量表",
+              "level": 3,
+              "line_start": 163,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.2.6",
+              "line_end": 168,
+              "subsections": []
+            },
+            {
+              "title": "7、合并所有者权益变动表",
+              "level": 3,
+              "line_start": 169,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.2.7",
+              "line_end": 193,
+              "subsections": []
+            },
+            {
+              "title": "8、母公司所有者权益变动表",
+              "level": 3,
+              "line_start": 194,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.2.8",
+              "line_end": 206,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "三、公司基本情况",
+          "level": 2,
+          "line_start": 207,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.3",
+          "line_end": 218,
+          "subsections": []
+        },
+        {
+          "title": "四、财务报表的编制基础",
+          "level": 2,
+          "line_start": 219,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.4",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、编制基础",
+              "level": 3,
+              "line_start": 221,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.4.1",
+              "line_end": 224,
+              "subsections": []
+            },
+            {
+              "title": "2、持续经营",
+              "level": 3,
+              "line_start": 225,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.4.2",
+              "line_end": 230,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "五、重要会计政策及会计估计",
+          "level": 2,
+          "line_start": 231,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.5",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、遵循企业会计准则的声明",
+              "level": 3,
+              "line_start": 237,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.5.1",
+              "line_end": 240,
+              "subsections": []
+            },
+            {
+              "title": "2、会计期间",
+              "level": 3,
+              "line_start": 241,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.5.2",
+              "line_end": 244,
+              "subsections": []
+            },
+            {
+              "title": "3、营业周期",
+              "level": 3,
+              "line_start": 245,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.5.3",
+              "line_end": 248,
+              "subsections": []
+            },
+            {
+              "title": "4、记账本位币",
+              "level": 3,
+              "line_start": 249,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.5.4",
+              "line_end": 252,
+              "subsections": []
+            },
+            {
+              "title": "5、重要性标准确定方法和选择依据",
+              "level": 3,
+              "line_start": 253,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.5.5",
+              "line_end": 258,
+              "subsections": []
+            },
+            {
+              "title": "6、同一控制下和非同一控制下企业合并的会计处理方法",
+              "level": 3,
+              "line_start": 259,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.5.6",
+              "line_end": 270,
+              "subsections": []
+            },
+            {
+              "title": "7、控制的判断标准和合并财务报表的编制方法",
+              "level": 3,
+              "line_start": 271,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.5.7",
+              "line_end": 294,
+              "subsections": []
+            },
+            {
+              "title": "8、合营安排分类及共同经营会计处理方法",
+              "level": 3,
+              "line_start": 295,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.5.8",
+              "line_end": 302,
+              "subsections": []
+            },
+            {
+              "title": "9、现金及现金等价物的确定标准",
+              "level": 3,
+              "line_start": 303,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.5.9",
+              "line_end": 306,
+              "subsections": []
+            },
+            {
+              "title": "10、外币业务和外币报表折算",
+              "level": 3,
+              "line_start": 307,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.5.10",
+              "line_end": 324,
+              "subsections": []
+            },
+            {
+              "title": "11、金融工具",
+              "level": 3,
+              "line_start": 325,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.5.11",
+              "line_end": 345,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "以摊余成本计量的金融资产",
+          "level": 2,
+          "line_start": 346,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 354,
+          "subsections": []
+        },
+        {
+          "title": "以公允价值计量且其变动计入其他综合收益的金融资产",
+          "level": 2,
+          "line_start": 355,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 363,
+          "subsections": []
+        },
+        {
+          "title": "以公允价值计量且其变动计入当期损益的金融资产",
+          "level": 2,
+          "line_start": 364,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 385,
+          "subsections": []
+        },
+        {
+          "title": "以公允价值计量且其变动计入当期损益的金融负债",
+          "level": 2,
+          "line_start": 386,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 389,
+          "subsections": []
+        },
+        {
+          "title": "以摊余成本计量的金融负债",
+          "level": 2,
+          "line_start": 390,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 393,
+          "subsections": []
+        },
+        {
+          "title": "金融负债与权益工具的区分",
+          "level": 2,
+          "line_start": 394,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 426,
+          "subsections": []
+        },
+        {
+          "title": "预期信用损失的计量",
+          "level": 2,
+          "line_start": 427,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 444,
+          "subsections": []
+        },
+        {
+          "title": "应收票据、应收账款和合同资产",
+          "level": 2,
+          "line_start": 445,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 450,
+          "subsections": []
+        },
+        {
+          "title": "A、应收票据",
+          "level": 2,
+          "line_start": 451,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 455,
+          "subsections": []
+        },
+        {
+          "title": "B、应收账款",
+          "level": 2,
+          "line_start": 456,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 460,
+          "subsections": []
+        },
+        {
+          "title": "C、合同资产",
+          "level": 2,
+          "line_start": 461,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 468,
+          "subsections": []
+        },
+        {
+          "title": "其他应收款",
+          "level": 2,
+          "line_start": 469,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 479,
+          "subsections": []
+        },
+        {
+          "title": "长期应收款",
+          "level": 2,
+          "line_start": 480,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 485,
+          "subsections": []
+        },
+        {
+          "title": "A、应收融资租赁款",
+          "level": 2,
+          "line_start": 486,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 492,
+          "subsections": []
+        },
+        {
+          "title": "债权投资、其他债权投资",
+          "level": 2,
+          "line_start": 493,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 496,
+          "subsections": []
+        },
+        {
+          "title": "信用风险显著增加的评估",
+          "level": 2,
+          "line_start": 497,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 509,
+          "subsections": []
+        },
+        {
+          "title": "已发生信用减值的金融资产",
+          "level": 2,
+          "line_start": 510,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 519,
+          "subsections": []
+        },
+        {
+          "title": "预期信用损失准备的列报",
+          "level": 2,
+          "line_start": 520,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 523,
+          "subsections": []
+        },
+        {
+          "title": "核销",
+          "level": 2,
+          "line_start": 524,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "12、公允价值计量",
+              "level": 3,
+              "line_start": 542,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "12",
+              "line_end": 557,
+              "subsections": []
+            },
+            {
+              "title": "13、存货",
+              "level": 3,
+              "line_start": 558,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "13",
+              "line_end": 585,
+              "subsections": []
+            },
+            {
+              "title": "14、长期股权投资",
+              "level": 3,
+              "line_start": 586,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "14",
+              "line_end": 619,
+              "subsections": []
+            },
+            {
+              "title": "15、固定资产",
+              "level": 3,
+              "line_start": 620,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "15",
+              "line_end": 651,
+              "subsections": []
+            },
+            {
+              "title": "16、在建工程",
+              "level": 3,
+              "line_start": 652,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "16",
+              "line_end": 661,
+              "subsections": []
+            },
+            {
+              "title": "17、无形资产",
+              "level": 3,
+              "line_start": 662,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "17",
+              "line_end": 677,
+              "subsections": []
+            },
+            {
+              "title": "18、研发支出",
+              "level": 3,
+              "line_start": 678,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "18",
+              "line_end": 689,
+              "subsections": []
+            },
+            {
+              "title": "19、长期资产减值",
+              "level": 3,
+              "line_start": 690,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "19",
+              "line_end": 705,
+              "subsections": []
+            },
+            {
+              "title": "20、长期待摊费用",
+              "level": 3,
+              "line_start": 706,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "20",
+              "line_end": 709,
+              "subsections": []
+            },
+            {
+              "title": "21、职工薪酬",
+              "level": 3,
+              "line_start": 710,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "21",
+              "line_end": 725,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "设定提存计划",
+          "level": 2,
+          "line_start": 726,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "22、预计负债",
+              "level": 3,
+              "line_start": 736,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "22",
+              "line_end": 753,
+              "subsections": []
+            },
+            {
+              "title": "23、股份支付",
+              "level": 3,
+              "line_start": 754,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "23",
+              "line_end": 781,
+              "subsections": []
+            },
+            {
+              "title": "24、收入",
+              "level": 3,
+              "line_start": 782,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "24",
+              "line_end": 814,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "商品销售合同",
+          "level": 2,
+          "line_start": 815,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 826,
+          "subsections": []
+        },
+        {
+          "title": "提供服务合同",
+          "level": 2,
+          "line_start": 827,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "25、合同成本",
+              "level": 3,
+              "line_start": 833,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "25",
+              "line_end": 853,
+              "subsections": []
+            },
+            {
+              "title": "26、政府补助",
+              "level": 3,
+              "line_start": 854,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "26",
+              "line_end": 869,
+              "subsections": []
+            },
+            {
+              "title": "27、递延所得税资产及递延所得税负债",
+              "level": 3,
+              "line_start": 870,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "27",
+              "line_end": 894,
+              "subsections": []
+            },
+            {
+              "title": "28、安全生产费用及维简费",
+              "level": 3,
+              "line_start": 895,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "28",
+              "line_end": 902,
+              "subsections": []
+            },
+            {
+              "title": "29、回购股份",
+              "level": 3,
+              "line_start": 903,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "29",
+              "line_end": 908,
+              "subsections": []
+            },
+            {
+              "title": "30、套期会计",
+              "level": 3,
+              "line_start": 909,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "30",
+              "line_end": 925,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "公允价值套期",
+          "level": 2,
+          "line_start": 926,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 935,
+          "subsections": []
+        },
+        {
+          "title": "现金流量套期",
+          "level": 2,
+          "line_start": 936,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "31、租赁",
+              "level": 3,
+              "line_start": 950,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "31",
+              "line_end": 963,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "短期租赁",
+          "level": 2,
+          "line_start": 964,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 971,
+          "subsections": []
+        },
+        {
+          "title": "低价值资产租赁",
+          "level": 2,
+          "line_start": 972,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 979,
+          "subsections": []
+        },
+        {
+          "title": "租赁变更",
+          "level": 2,
+          "line_start": 980,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 991,
+          "subsections": []
+        },
+        {
+          "title": "融资租赁",
+          "level": 2,
+          "line_start": 992,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 997,
+          "subsections": []
+        },
+        {
+          "title": "经营租赁",
+          "level": 2,
+          "line_start": 998,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 1001,
+          "subsections": []
+        },
+        {
+          "title": "租赁变更",
+          "level": 2,
+          "line_start": 1002,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "32、使用权资产",
+              "level": 3,
+              "line_start": 1006,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "32",
+              "line_end": 1021,
+              "subsections": []
+            },
+            {
+              "title": "33、重要会计政策和会计估计变更",
+              "level": 3,
+              "line_start": 1022,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "33",
+              "line_end": 1072,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "六、税项",
+          "level": 2,
+          "line_start": 1073,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.6",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、主要税种及税率",
+              "level": 3,
+              "line_start": 1075,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.6.1",
+              "line_end": 1096,
+              "subsections": []
+            },
+            {
+              "title": "2、税收优惠",
+              "level": 3,
+              "line_start": 1097,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.6.2",
+              "line_end": 1121,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "七、合并财务报表项目注释",
+          "level": 2,
+          "line_start": 1122,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.7",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、货币资金",
+              "level": 3,
+              "line_start": 1124,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.1",
+              "line_end": 1131,
+              "subsections": []
+            },
+            {
+              "title": "2、交易性金融资产",
+              "level": 3,
+              "line_start": 1132,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.2",
+              "line_end": 1137,
+              "subsections": []
+            },
+            {
+              "title": "3、应收票据",
+              "level": 3,
+              "line_start": 1138,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.3",
+              "line_end": 1155,
+              "subsections": []
+            },
+            {
+              "title": "4、应收账款",
+              "level": 3,
+              "line_start": 1156,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.4",
+              "line_end": 1208,
+              "subsections": []
+            },
+            {
+              "title": "5、合同资产",
+              "level": 3,
+              "line_start": 1209,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.5",
+              "line_end": 1231,
+              "subsections": []
+            },
+            {
+              "title": "6、应收款项融资",
+              "level": 3,
+              "line_start": 1232,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.6",
+              "line_end": 1247,
+              "subsections": []
+            },
+            {
+              "title": "7、其他应收款",
+              "level": 3,
+              "line_start": 1248,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.7",
+              "line_end": 1297,
+              "subsections": []
+            },
+            {
+              "title": "8、预付款项",
+              "level": 3,
+              "line_start": 1298,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.8",
+              "line_end": 1311,
+              "subsections": []
+            },
+            {
+              "title": "9、存货",
+              "level": 3,
+              "line_start": 1312,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.9",
+              "line_end": 1335,
+              "subsections": []
+            },
+            {
+              "title": "10、一年内到期的非流动资产",
+              "level": 3,
+              "line_start": 1336,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.10",
+              "line_end": 1341,
+              "subsections": []
+            },
+            {
+              "title": "11、其他流动资产",
+              "level": 3,
+              "line_start": 1342,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.11",
+              "line_end": 1349,
+              "subsections": []
+            },
+            {
+              "title": "12、其他权益工具投资",
+              "level": 3,
+              "line_start": 1350,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.12",
+              "line_end": 1359,
+              "subsections": []
+            },
+            {
+              "title": "13、长期应收款",
+              "level": 3,
+              "line_start": 1360,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.13",
+              "line_end": 1377,
+              "subsections": []
+            },
+            {
+              "title": "14、长期股权投资",
+              "level": 3,
+              "line_start": 1378,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.14",
+              "line_end": 1391,
+              "subsections": []
+            },
+            {
+              "title": "15、其他非流动金融资产",
+              "level": 3,
+              "line_start": 1392,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.15",
+              "line_end": 1397,
+              "subsections": []
+            },
+            {
+              "title": "16、固定资产",
+              "level": 3,
+              "line_start": 1398,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.16",
+              "line_end": 1425,
+              "subsections": []
+            },
+            {
+              "title": "17、在建工程",
+              "level": 3,
+              "line_start": 1426,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.17",
+              "line_end": 1457,
+              "subsections": []
+            },
+            {
+              "title": "18、使用权资产",
+              "level": 3,
+              "line_start": 1458,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.18",
+              "line_end": 1465,
+              "subsections": []
+            },
+            {
+              "title": "19、无形资产",
+              "level": 3,
+              "line_start": 1466,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.19",
+              "line_end": 1487,
+              "subsections": []
+            },
+            {
+              "title": "20、商誉",
+              "level": 3,
+              "line_start": 1488,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.20",
+              "line_end": 1505,
+              "subsections": []
+            },
+            {
+              "title": "21、长期待摊费用",
+              "level": 3,
+              "line_start": 1506,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.21",
+              "line_end": 1511,
+              "subsections": []
+            },
+            {
+              "title": "22、递延所得税资产/递延所得税负债",
+              "level": 3,
+              "line_start": 1512,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.22",
+              "line_end": 1543,
+              "subsections": []
+            },
+            {
+              "title": "23、其他非流动资产",
+              "level": 3,
+              "line_start": 1544,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.23",
+              "line_end": 1549,
+              "subsections": []
+            },
+            {
+              "title": "24、所有权或使用权受到限制的资产",
+              "level": 3,
+              "line_start": 1550,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.24",
+              "line_end": 1555,
+              "subsections": []
+            },
+            {
+              "title": "25、短期借款",
+              "level": 3,
+              "line_start": 1556,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.25",
+              "line_end": 1565,
+              "subsections": []
+            },
+            {
+              "title": "26、衍生金融负债",
+              "level": 3,
+              "line_start": 1566,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.26",
+              "line_end": 1575,
+              "subsections": []
+            },
+            {
+              "title": "27、应付票据",
+              "level": 3,
+              "line_start": 1576,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.27",
+              "line_end": 1583,
+              "subsections": []
+            },
+            {
+              "title": "28、应付账款",
+              "level": 3,
+              "line_start": 1584,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.28",
+              "line_end": 1593,
+              "subsections": []
+            },
+            {
+              "title": "29、其他应付款",
+              "level": 3,
+              "line_start": 1594,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.29",
+              "line_end": 1617,
+              "subsections": []
+            },
+            {
+              "title": "30、合同负债",
+              "level": 3,
+              "line_start": 1618,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.30",
+              "line_end": 1623,
+              "subsections": []
+            },
+            {
+              "title": "31、应付职工薪酬",
+              "level": 3,
+              "line_start": 1624,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.31",
+              "line_end": 1643,
+              "subsections": []
+            },
+            {
+              "title": "32、应交税费",
+              "level": 3,
+              "line_start": 1644,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.32",
+              "line_end": 1649,
+              "subsections": []
+            },
+            {
+              "title": "33、一年内到期的非流动负债",
+              "level": 3,
+              "line_start": 1650,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.33",
+              "line_end": 1673,
+              "subsections": []
+            },
+            {
+              "title": "34、其他流动负债",
+              "level": 3,
+              "line_start": 1674,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.34",
+              "line_end": 1681,
+              "subsections": []
+            },
+            {
+              "title": "35、长期借款",
+              "level": 3,
+              "line_start": 1682,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.35",
+              "line_end": 1689,
+              "subsections": []
+            },
+            {
+              "title": "36、应付债券",
+              "level": 3,
+              "line_start": 1690,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.36",
+              "line_end": 1708,
+              "subsections": []
+            },
+            {
+              "title": "37、租赁负债",
+              "level": 3,
+              "line_start": 1709,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.37",
+              "line_end": 1714,
+              "subsections": []
+            },
+            {
+              "title": "38、长期应付款",
+              "level": 3,
+              "line_start": 1715,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.38",
+              "line_end": 1726,
+              "subsections": []
+            },
+            {
+              "title": "39、预计负债",
+              "level": 3,
+              "line_start": 1727,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.39",
+              "line_end": 1738,
+              "subsections": []
+            },
+            {
+              "title": "40、递延收益",
+              "level": 3,
+              "line_start": 1739,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.40",
+              "line_end": 1742,
+              "subsections": []
+            },
+            {
+              "title": "41、其他非流动负债",
+              "level": 3,
+              "line_start": 1743,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.41",
+              "line_end": 1748,
+              "subsections": []
+            },
+            {
+              "title": "42、股本",
+              "level": 3,
+              "line_start": 1749,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.42",
+              "line_end": 1760,
+              "subsections": []
+            },
+            {
+              "title": "43、资本公积",
+              "level": 3,
+              "line_start": 1761,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.43",
+              "line_end": 1772,
+              "subsections": []
+            },
+            {
+              "title": "44、库存股",
+              "level": 3,
+              "line_start": 1773,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.44",
+              "line_end": 1782,
+              "subsections": []
+            },
+            {
+              "title": "45、其他综合收益",
+              "level": 3,
+              "line_start": 1783,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.45",
+              "line_end": 1802,
+              "subsections": []
+            },
+            {
+              "title": "46、专项储备",
+              "level": 3,
+              "line_start": 1803,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.46",
+              "line_end": 1808,
+              "subsections": []
+            },
+            {
+              "title": "47、盈余公积",
+              "level": 3,
+              "line_start": 1809,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.47",
+              "line_end": 1816,
+              "subsections": []
+            },
+            {
+              "title": "48、未分配利润",
+              "level": 3,
+              "line_start": 1817,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.48",
+              "line_end": 1822,
+              "subsections": []
+            },
+            {
+              "title": "49、营业收入和营业成本",
+              "level": 3,
+              "line_start": 1823,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.49",
+              "line_end": 1840,
+              "subsections": []
+            },
+            {
+              "title": "50、税金及附加",
+              "level": 3,
+              "line_start": 1841,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.50",
+              "line_end": 1846,
+              "subsections": []
+            },
+            {
+              "title": "51、管理费用",
+              "level": 3,
+              "line_start": 1847,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.51",
+              "line_end": 1852,
+              "subsections": []
+            },
+            {
+              "title": "52、销售费用",
+              "level": 3,
+              "line_start": 1853,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.52",
+              "line_end": 1858,
+              "subsections": []
+            },
+            {
+              "title": "53、研发费用",
+              "level": 3,
+              "line_start": 1859,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.53",
+              "line_end": 1864,
+              "subsections": []
+            },
+            {
+              "title": "54、财务费用",
+              "level": 3,
+              "line_start": 1865,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.54",
+              "line_end": 1870,
+              "subsections": []
+            },
+            {
+              "title": "55、其他收益",
+              "level": 3,
+              "line_start": 1871,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.55",
+              "line_end": 1876,
+              "subsections": []
+            },
+            {
+              "title": "56、公允价值变动收益",
+              "level": 3,
+              "line_start": 1877,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.56",
+              "line_end": 1882,
+              "subsections": []
+            },
+            {
+              "title": "57、投资收益",
+              "level": 3,
+              "line_start": 1883,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.57",
+              "line_end": 1888,
+              "subsections": []
+            },
+            {
+              "title": "58、信用减值损失",
+              "level": 3,
+              "line_start": 1889,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.58",
+              "line_end": 1894,
+              "subsections": []
+            },
+            {
+              "title": "59、资产减值损失",
+              "level": 3,
+              "line_start": 1895,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.59",
+              "line_end": 1900,
+              "subsections": []
+            },
+            {
+              "title": "60、资产处置收益",
+              "level": 3,
+              "line_start": 1901,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.60",
+              "line_end": 1906,
+              "subsections": []
+            },
+            {
+              "title": "61、营业外收入",
+              "level": 3,
+              "line_start": 1907,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.61",
+              "line_end": 1912,
+              "subsections": []
+            },
+            {
+              "title": "62、营业外支出",
+              "level": 3,
+              "line_start": 1913,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.62",
+              "line_end": 1918,
+              "subsections": []
+            },
+            {
+              "title": "63、所得税费用",
+              "level": 3,
+              "line_start": 1919,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.63",
+              "line_end": 1932,
+              "subsections": []
+            },
+            {
+              "title": "64、其他综合收益",
+              "level": 3,
+              "line_start": 1933,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.64",
+              "line_end": 1936,
+              "subsections": []
+            },
+            {
+              "title": "65、现金流量表项目",
+              "level": 3,
+              "line_start": 1937,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.65",
+              "line_end": 1986,
+              "subsections": []
+            },
+            {
+              "title": "66、现金流量表补充资料",
+              "level": 3,
+              "line_start": 1987,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.66",
+              "line_end": 2034,
+              "subsections": []
+            },
+            {
+              "title": "67、外币货币性项目",
+              "level": 3,
+              "line_start": 2035,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.7.67",
+              "line_end": 2046,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "八、研发支出",
+          "level": 2,
+          "line_start": 2047,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.8",
+          "line_end": 2052,
+          "subsections": []
+        },
+        {
+          "title": "九、合并范围的变更",
+          "level": 2,
+          "line_start": 2053,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.9",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、非同一控制下企业合并",
+              "level": 3,
+              "line_start": 2055,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.9.1",
+              "line_end": 2058,
+              "subsections": []
+            },
+            {
+              "title": "2、同一控制下企业合并",
+              "level": 3,
+              "line_start": 2059,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.9.2",
+              "line_end": 2062,
+              "subsections": []
+            },
+            {
+              "title": "3、处置子公司",
+              "level": 3,
+              "line_start": 2063,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.9.3",
+              "line_end": 2066,
+              "subsections": []
+            },
+            {
+              "title": "4、其他原因的合并范围变动",
+              "level": 3,
+              "line_start": 2067,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.9.4",
+              "line_end": 2076,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十、在其他主体中的权益",
+          "level": 2,
+          "line_start": 2077,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.10",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、在子公司中的权益",
+              "level": 3,
+              "line_start": 2079,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.10.1",
+              "line_end": 2091,
+              "subsections": []
+            },
+            {
+              "title": "2、在子公司的所有者权益份额发生变化且仍控制子公司的交易",
+              "level": 3,
+              "line_start": 2092,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.10.2",
+              "line_end": 2107,
+              "subsections": []
+            },
+            {
+              "title": "3、在合营安排或联营企业中的重要权益",
+              "level": 3,
+              "line_start": 2108,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.10.3",
+              "line_end": 2111,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十一、与金融工具相关的风险",
+          "level": 2,
+          "line_start": 2112,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.11",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、风险管理目标和政策",
+              "level": 3,
+              "line_start": 2118,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.11.1",
+              "line_end": 2163,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "利率风险",
+          "level": 2,
+          "line_start": 2164,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 2171,
+          "subsections": []
+        },
+        {
+          "title": "汇率风险",
+          "level": 2,
+          "line_start": 2172,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": 2179,
+          "subsections": []
+        },
+        {
+          "title": "其他价格风险",
+          "level": 2,
+          "line_start": 2180,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "2、资本管理",
+              "level": 3,
+              "line_start": 2188,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "2",
+              "line_end": 2195,
+              "subsections": []
+            },
+            {
+              "title": "3、套期",
+              "level": 3,
+              "line_start": 2196,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "3",
+              "line_end": 2219,
+              "subsections": []
+            },
+            {
+              "title": "4、金融资产转移",
+              "level": 3,
+              "line_start": 2220,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "4",
+              "line_end": 2223,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十二、公允价值的披露",
+          "level": 2,
+          "line_start": 2224,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.12",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、以公允价值计量的资产和负债的期末公允价值",
+              "level": 3,
+              "line_start": 2226,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.12.1",
+              "line_end": 2231,
+              "subsections": []
+            },
+            {
+              "title": "2、持续和非持续第一层次公允价值计量项目市价的确定依据",
+              "level": 3,
+              "line_start": 2232,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.12.2",
+              "line_end": 2235,
+              "subsections": []
+            },
+            {
+              "title": "3、持续和非持续第二层次公允价值计量项目，采用的估值技术和重要参数的定性及定量信息",
+              "level": 3,
+              "line_start": 2236,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.12.3",
+              "line_end": 2239,
+              "subsections": []
+            },
+            {
+              "title": "4、持续和非持续第三层次公允价值计量项目，采用的估值技术和重要参数的定性及定量信息",
+              "level": 3,
+              "line_start": 2240,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.12.4",
+              "line_end": 2243,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十三、关联方及关联交易",
+          "level": 2,
+          "line_start": 2244,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.13",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、本公司的控股股东与实际控制人",
+              "level": 3,
+              "line_start": 2246,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.13.1",
+              "line_end": 2253,
+              "subsections": []
+            },
+            {
+              "title": "2、本企业的子公司情况",
+              "level": 3,
+              "line_start": 2254,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.13.2",
+              "line_end": 2257,
+              "subsections": []
+            },
+            {
+              "title": "3、本企业合营和联营企业情况",
+              "level": 3,
+              "line_start": 2258,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.13.3",
+              "line_end": 2265,
+              "subsections": []
+            },
+            {
+              "title": "4、其他关联方情况",
+              "level": 3,
+              "line_start": 2266,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.13.4",
+              "line_end": 2269,
+              "subsections": []
+            },
+            {
+              "title": "5、关联交易情况",
+              "level": 3,
+              "line_start": 2270,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.13.5",
+              "line_end": 2299,
+              "subsections": []
+            },
+            {
+              "title": "6、关联方应收应付款项",
+              "level": 3,
+              "line_start": 2300,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.13.6",
+              "line_end": 2313,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十四、股份支付",
+          "level": 2,
+          "line_start": 2314,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.14",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、股份支付总体情况",
+              "level": 3,
+              "line_start": 2316,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.14.1",
+              "line_end": 2338,
+              "subsections": []
+            },
+            {
+              "title": "2、以权益结算的股份支付情况",
+              "level": 3,
+              "line_start": 2339,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.14.2",
+              "line_end": 2346,
+              "subsections": []
+            },
+            {
+              "title": "3、以现金结算的股份支付情况",
+              "level": 3,
+              "line_start": 2347,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.14.3",
+              "line_end": 2350,
+              "subsections": []
+            },
+            {
+              "title": "4、本期股份支付费用",
+              "level": 3,
+              "line_start": 2351,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.14.4",
+              "line_end": 2357,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十五、承诺及或有事项",
+          "level": 2,
+          "line_start": 2358,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.15",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、或有事项",
+              "level": 3,
+              "line_start": 2360,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.15.1",
+              "line_end": 2371,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十六、资产负债表日后事项",
+          "level": 2,
+          "line_start": 2372,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.16",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、利润分配情况",
+              "level": 3,
+              "line_start": 2374,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.16.1",
+              "line_end": 2379,
+              "subsections": []
+            },
+            {
+              "title": "2、其他资产负债表日后事项说明",
+              "level": 3,
+              "line_start": 2380,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.16.2",
+              "line_end": 2383,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十七、其他重要事项",
+          "level": 2,
+          "line_start": 2384,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.17",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、分布报告",
+              "level": 3,
+              "line_start": 2386,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.17.1",
+              "line_end": 2389,
+              "subsections": []
+            },
+            {
+              "title": "2、其他信息",
+              "level": 3,
+              "line_start": 2390,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.17.2",
+              "line_end": 2401,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十八、母公司财务报表主要项目注释",
+          "level": 2,
+          "line_start": 2402,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.18",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、应收账款",
+              "level": 3,
+              "line_start": 2404,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.18.1",
+              "line_end": 2450,
+              "subsections": []
+            },
+            {
+              "title": "2、其他应收款",
+              "level": 3,
+              "line_start": 2451,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.18.2",
+              "line_end": 2497,
+              "subsections": []
+            },
+            {
+              "title": "3、长期股权投资",
+              "level": 3,
+              "line_start": 2498,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.18.3",
+              "line_end": 2535,
+              "subsections": []
+            },
+            {
+              "title": "4、营业收入和营业成本",
+              "level": 3,
+              "line_start": 2536,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.18.4",
+              "line_end": 2545,
+              "subsections": []
+            },
+            {
+              "title": "5、投资收益",
+              "level": 3,
+              "line_start": 2546,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.18.5",
+              "line_end": 2551,
+              "subsections": []
+            }
+          ]
+        },
+        {
+          "title": "十九、补充资料",
+          "level": 2,
+          "line_start": 2552,
+          "file": "10_第十节 财务报告.md",
+          "section_id": "10.19",
+          "line_end": null,
+          "subsections": [
+            {
+              "title": "1、当期非经常性损益明细表",
+              "level": 3,
+              "line_start": 2554,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.19.1",
+              "line_end": 2571,
+              "subsections": []
+            },
+            {
+              "title": "2、净资产收益率及每股收益",
+              "level": 3,
+              "line_start": 2572,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.19.2",
+              "line_end": 2575,
+              "subsections": []
+            },
+            {
+              "title": "3、境内外会计准则下会计数据差异",
+              "level": 3,
+              "line_start": 2576,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.19.3",
+              "line_end": 2589,
+              "subsections": []
+            },
+            {
+              "title": "4、其他",
+              "level": 3,
+              "line_start": 2590,
+              "file": "10_第十节 财务报告.md",
+              "section_id": "10.19.4",
+              "line_end": 2590,
+              "subsections": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generated_at": "2026-05-18T21:42:47.904749"
+}

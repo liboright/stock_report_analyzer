@@ -1,0 +1,10 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.9, pytest-9.0.2, pluggy-1.5.0 -- C:\Users\LiBo\miniconda3\python.exe
+cachedir: .pytest_cache
+rootdir: D:\quant\report_database
+plugins: anyio-4.12.1
+collecting ... ERROR: file or directory not found: workspace/table_extract/tests/
+
+collected 0 items
+
+============================ no tests ran in 0.01s ============================

@@ -1,9 +1,11 @@
-# Logs
+# ===== Logs & runtime =====
 *.log
-.backend.log
-.frontend.log
+report_analyzer/.backend.log
+report_analyzer/.frontend.log
+report_data/.claude_state/
+report_data/*/output/log/
 
-# Temp / cache
+# ===== Temp / cache =====
 .tmp/
 .playwright-mcp/
 __pycache__/
@@ -11,36 +13,47 @@ __pycache__/
 .pytest_cache/
 *.egg-info/
 
-# Virtual env
+# ===== Virtual env =====
 .venv/
 venv/
 
-# Env (含真实密钥)
+# ===== Env (含真实密钥) =====
 .env
-backend/.env
+report_analyzer/backend/.env
 
-# Node / Vite
+# ===== Node / Vite (report_analyzer 内) =====
 node_modules/
-frontend/dist/
-frontend/*.tsbuildinfo
-frontend/vite.config.js
-frontend/vite.config.d.ts
+report_analyzer/frontend/dist/
+report_analyzer/frontend/*.tsbuildinfo
+report_analyzer/frontend/vite.config.js
+report_analyzer/frontend/vite.config.d.ts
 
-# Dev workspace
-workspace/
+# ===== Dev workspace =====
+report_analyzer/workspace/
 
-# Root test artifacts
-test_results.txt
-test_mineru_key.py
+# ===== Root test artifacts =====
+report_analyzer/test_results.txt
+report_analyzer/test_mineru_key.py
 
-# Local skill output samples / test reports (按 docs/usage.md 落盘到 report_data/)
-backend/*_业务概况.md
-backend/*_行业分析.md
+# ===== Local skill output samples / test reports (按 docs/usage.md 落盘到 report_data/) =====
+report_analyzer/backend/*_业务概况.md
+report_analyzer/backend/*_行业分析.md
 
-# Sample annual-report PDFs (按 CLAUDE.md 数据应落盘到 report_data/)
+# ===== Sample annual-report PDFs (按 CLAUDE.md 数据应落盘到 report_data/) =====
 *.pdf
+report_data/**/.staging/
 
-# IDE
+# ===== report_data runtime artifacts (不跟踪) =====
+report_data/.claude_state/
+report_data/**/mineru_output/
+
+# ===== Claude Code user-level config at repo root (stray templates) =====
+/.claude/
+
+# ===== Skill build outputs =====
+.claude/skills/dist/
+
+# ===== IDE =====
 .vscode/
 .idea/
 *.swp
