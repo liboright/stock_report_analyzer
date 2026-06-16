@@ -15,12 +15,25 @@ export const reportsApi = {
   get: (runId: number) => api.get<ReportRun>(`/reports/${runId}`).then((r) => r.data),
   getContent: (runId: number) =>
     api.get<ReportContent>(`/reports/${runId}/content`).then((r) => r.data),
-  generate: (params: { company: string; year?: number; skill?: string }) =>
+  /**
+   * 触发报告生成（异步）。
+   * - years 优先于 year（不传 year 时只用 years）
+   * - 都不传时后端 fallback 到公司最新可用年份
+   */
+  generate: (params: {
+    company: string;
+    year?: number;
+    years?: number[];
+    skill?: string;
+  }) =>
     api
-      .post<{ run_id: number; status: string; skill: string; message: string }>(
-        "/reports/generate",
-        params,
-      )
+      .post<{
+        run_id: number;
+        status: string;
+        skill: string;
+        years: number[];
+        message: string;
+      }>("/reports/generate", params)
       .then((r) => r.data),
   download: (params: { company: string; years: number[] }) =>
     api

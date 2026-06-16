@@ -3,11 +3,9 @@ import {
   Alert,
   Button,
   Card,
-  Collapse,
   Empty,
   List,
   Space,
-  Spin,
   Switch,
   Tabs,
   Tag,
@@ -15,16 +13,13 @@ import {
   Typography,
   message,
 } from "antd";
-import { ReloadOutlined } from "@ant-design/icons";
 import { useQueryClient } from "@tanstack/react-query";
 import CompanyYearSelector from "../components/CompanyYearSelector";
 import { useCompanyYear } from "../hooks/useCompanyYear";
-import { useFiles } from "../hooks/useFiles";
 import { useTaskStream } from "../hooks/useTaskStream";
-import { getFileUrl } from "../api/files";
-import type { TableCsvFile } from "../api/files";
 import { companiesApi } from "../api/companies";
 import type { TaskStreamEvent } from "../hooks/useTaskStream";
+import { ParseYearFileTree } from "../components/FileTree";
 
 type Step = 0 | 1 | 2 | 3 | 4 | 5;
 const STEP_NAMES: Record<Step, string> = {
@@ -40,185 +35,6 @@ interface ChainTask {
   year: number;
   step: Step;
   force?: boolean;
-}
-
-/** 单 year 的文件树面板（4 类产物 Collapse），每个 Tab 渲染一份。
- *  hooks 调用必须在组件顶层，所以拆成子组件让每个 Tab 独立持有 useFiles 状态。
- */
-function YearFileTree({
-  company,
-  year,
-}: {
-  company: string;
-  year: number;
-}) {
-  const { data: tree, isLoading, refetch } = useFiles(company, year);
-
-  const tablesByCategory = (tree?.tables ?? []).reduce<
-    Record<string, TableCsvFile[]>
-  >((acc, t) => {
-    (acc[t.category] ||= []).push(t);
-    return acc;
-  }, {});
-  const orderedCategories = Object.keys(tablesByCategory).sort();
-
-  if (isLoading) return <Spin />;
-  const empty =
-    !tree ||
-    (tree.chapters.length === 0 &&
-      tree.section3.length === 0 &&
-      tree.research.length === 0 &&
-      tree.tables.length === 0);
-
-  return (
-    <Space direction="vertical" size="small" style={{ width: "100%" }}>
-      <Space>
-        <Button
-          icon={<ReloadOutlined />}
-          size="small"
-          onClick={() => refetch()}
-        >
-          刷新 {year}
-        </Button>
-      </Space>
-      {empty ? (
-        <Empty description={`${year} 年尚未解析`} />
-      ) : (
-        <Collapse defaultActiveKey={["chapters"]}>
-          <Collapse.Panel
-            header={`章节 (${tree?.chapters.length ?? 0})`}
-            key="chapters"
-          >
-            {tree && tree.chapters.length > 0 ? (
-              <List
-                size="small"
-                dataSource={tree.chapters}
-                renderItem={(c) => (
-                  <List.Item>
-                    <Space>
-                      <Tag color="blue">{c.section_num || "??"}</Tag>
-                      <a
-                        href={getFileUrl(c.path)}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        {c.title}
-                      </a>
-                    </Space>
-                  </List.Item>
-                )}
-              />
-            ) : (
-              <Empty
-                description="无章节文件"
-                image={Empty.PRESENTED_IMAGE_SIMPLE}
-              />
-            )}
-          </Collapse.Panel>
-          <Collapse.Panel
-            header={`第三节 H2 拆分 (${tree?.section3.length ?? 0})`}
-            key="section3"
-          >
-            {tree && tree.section3.length > 0 ? (
-              <List
-                size="small"
-                dataSource={tree.section3}
-                renderItem={(s) => (
-                  <List.Item>
-                    <a
-                      href={getFileUrl(s.path)}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {s.title}
-                    </a>
-                  </List.Item>
-                )}
-              />
-            ) : (
-              <Empty
-                description="无 H2 拆分文件"
-                image={Empty.PRESENTED_IMAGE_SIMPLE}
-              />
-            )}
-          </Collapse.Panel>
-          <Collapse.Panel
-            header={`业务概况 (${tree?.research.length ?? 0})`}
-            key="research"
-          >
-            {tree && tree.research.length > 0 ? (
-              <List
-                size="small"
-                dataSource={tree.research}
-                renderItem={(r) => (
-                  <List.Item>
-                    <a
-                      href={getFileUrl(r.path)}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {r.title}
-                    </a>
-                  </List.Item>
-                )}
-              />
-            ) : (
-              <Empty
-                description="尚未生成"
-                image={Empty.PRESENTED_IMAGE_SIMPLE}
-              />
-            )}
-          </Collapse.Panel>
-          <Collapse.Panel
-            header={`抽取表格 (${tree?.tables.length ?? 0})`}
-            key="tables"
-          >
-            {tree && tree.tables.length > 0 ? (
-              <Collapse size="small" ghost>
-                {orderedCategories.map((cat) => (
-                  <Collapse.Panel
-                    header={
-                      <Space>
-                        <Tag color="geekblue">{cat}</Tag>
-                        <Typography.Text type="secondary">
-                          {tablesByCategory[cat].length}
-                        </Typography.Text>
-                      </Space>
-                    }
-                    key={cat}
-                  >
-                    <List
-                      size="small"
-                      dataSource={tablesByCategory[cat]}
-                      renderItem={(t) => (
-                        <List.Item>
-                          <a
-                            href={`/api/static/raw/${t.path
-                              .split("/")
-                              .map((seg) => encodeURIComponent(seg))
-                              .join("/")}`}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            {t.name}
-                          </a>
-                        </List.Item>
-                      )}
-                    />
-                  </Collapse.Panel>
-                ))}
-              </Collapse>
-            ) : (
-              <Empty
-                description="尚未抽取表格"
-                image={Empty.PRESENTED_IMAGE_SIMPLE}
-              />
-            )}
-          </Collapse.Panel>
-        </Collapse>
-      )}
-    </Space>
-  );
 }
 
 export default function ParsePage() {
@@ -561,7 +377,7 @@ export default function ParsePage() {
         </Space>
       </Card>
 
-      <Card title="文件树（按年份切换 Tab）">
+      <Card title="文件树（按年份切换 Tab，解析产物：章节 / 第三节 / 抽取表格）">
         {!company ? (
           <Alert type="info" showIcon message="请先选择公司" />
         ) : tabYears.length === 0 ? (
@@ -573,7 +389,13 @@ export default function ParsePage() {
             items={tabYears.map((y) => ({
               key: String(y),
               label: `${y} 年`,
-              children: <YearFileTree company={company} year={y} />,
+              children: (
+                <ParseYearFileTree
+                  key={`${company}-${y}`}
+                  company={company}
+                  year={y}
+                />
+              ),
             }))}
           />
         )}

@@ -1,0 +1,146 @@
+/* Markdown 排版（prose-like）。跟 antd 5 浅色风格对齐。 */
+.md-body {
+  font-size: 14px;
+  line-height: 1.75;
+  color: rgba(0, 0, 0, 0.88);
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.md-body h1,
+.md-body h2,
+.md-body h3,
+.md-body h4,
+.md-body h5,
+.md-body h6 {
+  font-weight: 600;
+  margin: 1.2em 0 0.5em;
+  line-height: 1.4;
+}
+
+.md-body h1 {
+  font-size: 22px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 6px;
+}
+.md-body h2 {
+  font-size: 19px;
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 4px;
+}
+.md-body h3 {
+  font-size: 16px;
+}
+.md-body h4 {
+  font-size: 15px;
+}
+.md-body h5,
+.md-body h6 {
+  font-size: 14px;
+}
+
+.md-body p {
+  margin: 0.6em 0;
+}
+
+.md-body ul,
+.md-body ol {
+  padding-left: 1.6em;
+  margin: 0.6em 0;
+}
+
+.md-body li {
+  margin: 0.2em 0;
+}
+
+/* 任务列表（GFM） */
+.md-body input[type="checkbox"] {
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+/* 行内 code */
+.md-body code:not(pre code) {
+  background: #f5f5f5;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 12.5px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  color: #d6336c;
+}
+
+/* 代码块（rehype-highlight 会注入 hljs class） */
+.md-body pre {
+  background: #f6f8fa;
+  padding: 12px 14px;
+  border-radius: 6px;
+  overflow: auto;
+  font-size: 12.5px;
+  line-height: 1.55;
+  margin: 0.8em 0;
+}
+
+.md-body pre code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  background: transparent;
+  padding: 0;
+  color: inherit;
+  font-size: inherit;
+}
+
+.md-body blockquote {
+  border-left: 3px solid #d9d9d9;
+  padding: 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+  background: #fafafa;
+  margin: 0.8em 0;
+}
+
+.md-body blockquote > :first-child {
+  margin-top: 0;
+}
+.md-body blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+/* GFM 表格 */
+.md-body table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0.8em 0;
+  font-size: 13px;
+  display: block;
+  overflow-x: auto;
+}
+
+.md-body th,
+.md-body td {
+  border: 1px solid #e8e8e8;
+  padding: 6px 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.md-body th {
+  background: #fafafa;
+  font-weight: 600;
+}
+
+.md-body a {
+  color: #1677ff;
+  text-decoration: none;
+}
+.md-body a:hover {
+  text-decoration: underline;
+}
+
+.md-body img {
+  max-width: 100%;
+  height: auto;
+}
+
+.md-body hr {
+  border: none;
+  border-top: 1px solid #f0f0f0;
+  margin: 1.5em 0;
+}

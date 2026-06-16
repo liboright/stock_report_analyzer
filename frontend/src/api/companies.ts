@@ -70,6 +70,46 @@ export interface TablesExtractResult {
   message: string;
 }
 
+/** 阶段 3.x：跨年度表格合并请求 */
+export interface TablesMergeRequest {
+  /** 要合并的年份；null/undefined = 该公司所有已抽表年份。 */
+  years?: number[] | null;
+  scope: "all" | "8core";
+  force: boolean;
+}
+
+/** 阶段 3.x：合并分组摘要（强/弱/unmergeable）。 */
+export interface TableMergeGroupSummary {
+  group_key: string;
+  source_md_stem: string;
+  sanitized_title: string;
+  status: "strong" | "weak" | "unmergeable";
+  years: number[];
+  column_similarity: number;
+  row_jaccard: number;
+  /** 相对 REPORT_DATA_PATH 的 POSIX 路径；未生成时为 null。 */
+  long_csv: string | null;
+  wide_csv: string | null;
+  pending_skill: boolean;
+  reason: string;
+}
+
+/** 阶段 3.x：跨年度表格合并响应（端点 202 入队）。 */
+export interface TablesMergeResult {
+  company: string;
+  years: number[];
+  run_id: number | null;
+  total_csvs: number;
+  total_groups: number;
+  strong_count: number;
+  weak_count: number;
+  unmergeable_count: number;
+  groups: TableMergeGroupSummary[];
+  duration_ms: number;
+  status: "queued" | "done" | "failed";
+  message: string;
+}
+
 export const companiesApi = {
   list: () => api.get<Company[]>("/companies").then((r) => r.data),
   get: (name: string) =>
@@ -123,4 +163,35 @@ export const companiesApi = {
         { params: { year, force } },
       )
       .then((r) => r.data),
+  /** 阶段 3.x：跨年度表格合并（异步 202 → SSE 进度）。 */
+  mergeTables: (name: string, body: TablesMergeRequest) =>
+    api
+      .post<TablesMergeResult>(
+        `/companies/${encodeURIComponent(name)}/tables/merge`,
+        body,
+      )
+      .then((r) => r.data),
+  /** 阶段 3.x：跑完后从 ReportRun.last_event.payload_json 拉分组汇总。 */
+  getMergeSummary: async (runId: number) => {
+    const r = await api.get<{
+      run_id: number;
+      status: string;
+      last_event?: { payload_json?: string | null } | null;
+    }>(`/tasks/${runId}`);
+    const json = r.data.last_event?.payload_json;
+    if (!json) return null;
+    try {
+      return JSON.parse(json) as {
+        phase?: string;
+        strong_count?: number;
+        weak_count?: number;
+        unmergeable_count?: number;
+        skill_failures?: string[];
+        sidecar?: string;
+        groups?: TableMergeGroupSummary[];
+      };
+    } catch {
+      return null;
+    }
+  },
 };
