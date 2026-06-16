@@ -33,6 +33,13 @@ workspace/
 test_results.txt
 test_mineru_key.py
 
+# Local skill output samples / test reports (按 docs/usage.md 落盘到 report_data/)
+backend/*_业务概况.md
+backend/*_行业分析.md
+
+# Sample annual-report PDFs (按 CLAUDE.md 数据应落盘到 report_data/)
+*.pdf
+
 # IDE
 .vscode/
 .idea/

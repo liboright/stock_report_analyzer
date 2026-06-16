@@ -234,7 +234,7 @@ CREATE INDEX idx_task_event_run ON task_event(run_id, id);
 
 > 解决：MinerU 把所有候选标题统一加 1 个 `#`（全变 H1），下游 `chapter_split_service` / `section3_split_service` 无法直接消费。两链模型按整份报告**是否含 `（一）/（二）/（三）` 这一层**决定走哪条链。
 
-**两条链**（以 `三、报告期内公司从事的业务` 为 anchor probe）：
+**两条链**（以 `三、报告期内公司从事` 为 anchor probe）：
 
 | 链 | 触发 | L1 | L2 | L3 | L4 | L5 | L6 |
 |---|---|---|---|---|---|---|---|
@@ -243,7 +243,7 @@ CREATE INDEX idx_task_event_run ON task_event(run_id, id);
 
 **算法 4 步**（详见 `workspace/heading_annotate/heading_annotate_service.py` + `workspace/requirements.md §2`）：
 
-1. **anchor 定位** — 找首个 `#` 行 + 行体含「报告期内公司从事的业务」
+1. **anchor 定位** — 找首个 `#` 行 + 行体含「报告期内公司从事」
 2. **链决策** — anchor 管辖范围（到下一个 `第X节`）内是否出现 `（一）/（二）/（三）`
 3. **two-pass 改写** — 按"链的 level_table + 当前行体样式"动态判定每行 `#` 数（最浅命中）
 4. **同级序号校验** — 首项必为 1、连续递增、父级换则子级重置；anchor/probe 范围内违规抛 `ValueError`，普通区域违规行去 `#` 变正文
