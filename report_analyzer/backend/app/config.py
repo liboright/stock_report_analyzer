@@ -28,12 +28,12 @@ class Settings(BaseSettings):
     )
 
     # ---- 路径（统一单棵树：REPORT_DATA_PATH 为唯一根）----
-    REPORT_DATA_PATH: Path = Path("D:/quant/report_data")
+    REPORT_DATA_PATH: Path = Path("D:/quant/stock_report_analyzer/report_data")
     DEEP_RESEARCH_PATH: Path = Path("D:/quant/deep-research-report")
-    SCRIPT_PATH: Path = Path("D:/quant/report_analyzer/scripts")
-    MAPPING_PATH: Path = Path("D:/quant/report_data/mapping.json")
-    DB_PATH: Path = Path("D:/quant/report_data/.claude_state/state.db")
-    LOG_DIR: Path = Path("D:/quant/report_data/.claude_state/logs")
+    SCRIPT_PATH: Path = Path("D:/quant/stock_report_analyzer/report_analyzer/scripts")
+    MAPPING_PATH: Path = Path("D:/quant/stock_report_analyzer/report_data/mapping.json")
+    DB_PATH: Path = Path("D:/quant/stock_report_analyzer/report_data/.claude_state/state.db")
+    LOG_DIR: Path = Path("D:/quant/stock_report_analyzer/report_data/.claude_state/logs")
 
     # ---- LLM ----
     ANTHROPIC_API_KEY: str = ""

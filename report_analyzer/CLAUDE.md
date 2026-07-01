@@ -23,34 +23,34 @@
 ### 数据落盘结构
 > **详细路径布局、命名规则、ENV 变量、DB 路径字段语义、URL 映射、迁移对照表** 见 [`docs/artifacts.md`](docs/artifacts.md)（**路径规范唯一事实源**）。本节仅列出顶层速查：
 
-- **根目录**：`D:/quant/report_data/`（`REPORT_DATA_PATH`）
-- **公司子目录**：`D:/quant/report_data/{公司名}/`
-- **公司映射**：`D:/quant/report_data/mapping.json`（**临时机制**，后期会替换为完整股票代码/名称本地映射）
-- **数据库**：`D:/quant/report_data/.claude_state/state.db`（SQLite）
-- **日志**：`D:/quant/report_data/.claude_state/logs/`
+- **根目录**：`D:/quant/stock_report_analyzer/report_data/`（`REPORT_DATA_PATH`）
+- **公司子目录**：`D:/quant/stock_report_analyzer/report_data/{公司名}/`
+- **公司映射**：`D:/quant/stock_report_analyzer/report_data/mapping.json`（**临时机制**，后期会替换为完整股票代码/名称本地映射）
+- **数据库**：`D:/quant/stock_report_analyzer/report_data/.claude_state/state.db`（SQLite）
+- **日志**：`D:/quant/stock_report_analyzer/report_data/.claude_state/logs/`
 
 ### 复用模块路径（不复制代码）
 - `D:/quant/deep-research-report/shared/tools/`（核心 Python 实现，含 `table_parser.py`）
 - `D:/quant/report_gen/report_generator/parser/`（MinerU 解析器）
-- `D:/quant/report_analyzer/scripts/split_section3.py`（**注意**：在本项目内，不是 `report_data/scripts/`）
+- `D:/quant/stock_report_analyzer/report_analyzer/scripts/split_section3.py`（**注意**：在本项目内，不是 `report_data/scripts/`）
 - 启动时由 `app/config.py::lifespan` 注入 `sys.path`
 
 ### 关键命令
 ```bash
 # 后端
-cd D:/quant/report_analyzer/backend
+cd D:/quant/stock_report_analyzer/report_analyzer/backend
 uvicorn app.main:app --reload --port 8000
 
 # 前端
-cd D:/quant/report_analyzer/frontend
+cd D:/quant/stock_report_analyzer/report_analyzer/frontend
 npm run dev
 # → http://localhost:5173（Vite proxy /api → :8000）
 
 # 测试
-cd D:/quant/report_analyzer/backend && pytest -v
+cd D:/quant/stock_report_analyzer/report_analyzer/backend && pytest -v
 ```
 
 ### Skill 调用约定
-- Skill 文件统一在 `D:/quant/report_data/.claude/skills/`
+- Skill 文件统一在 `D:/quant/stock_report_analyzer/report_data/.claude/skills/`
 - 后端通过 `claude_skill_runner`（subprocess 调 `claude` CLI）跑 skill，**白名单**在 `SUPPORTED_SKILLS`
 - 当前唯一支持的 skill：`stage1_business_understanding`（生成业务概况 + 行业分析）

@@ -1,6 +1,6 @@
 # 中间文件存放位置（路径规范唯一事实源）
 
-> 适用版本：2026-06-08 起的报告存放路径重构之后
+> 适用版本：2026-06-08 起的报告存放路径重构之后；2026-06-18 起 `report_data/` 整体上移到仓库根 `D:/quant/stock_report_analyzer/` 下。
 > 路径变量集中定义在 `backend/app/config.py::Settings`（pydantic-settings 读 `.env`）
 
 ## 0. 概览
@@ -10,7 +10,7 @@
 - 后端代码（`backend/app/**/*.py`）的路径拼接
 - 复用模块（`D:/quant/deep-research-report/shared/tools/**`）的常量与默认参数
 - 测试 fixture 的真实数据路径
-- Claude Skills 的路径示例（`D:/quant/report_analyzer/.claude/skills/**`、`D:/quant/report_data/.claude/skills/**`）
+- Claude Skills 的路径示例（`D:/quant/stock_report_analyzer/report_analyzer/.claude/skills/**`、`D:/quant/stock_report_analyzer/report_data/.claude/skills/**`）
 - 文档中的所有路径示意
 
 **2026-06-08 重构说明**：
@@ -22,7 +22,7 @@
 ## 1. 目标目录树
 
 ```
-D:/quant/report_data/                                   ← 路径变量：REPORT_DATA_PATH
+D:/quant/stock_report_analyzer/report_data/                                   ← 路径变量：REPORT_DATA_PATH
 ├── mapping.json                                        ← 公司名→股票代码（MAPPING_PATH）
 ├── .claude_state/                                      ← SQLite + 日志 + 临时（不动）
 │   ├── state.db                                        ← DB_PATH
@@ -82,12 +82,12 @@ D:/quant/report_data/                                   ← 路径变量：REPOR
 
 | 配置项 | 默认值 | 用途 |
 |---|---|---|
-| `REPORT_DATA_PATH` | `D:/quant/report_data` | **唯一根目录**。所有相对路径均以此为 base。 |
-| `MAPPING_PATH` | `D:/quant/report_data/mapping.json` | 公司名→股票代码映射 |
-| `DB_PATH` | `D:/quant/report_data/.claude_state/state.db` | SQLite 数据库 |
-| `LOG_DIR` | `D:/quant/report_data/.claude_state/logs` | 后端应用日志 |
+| `REPORT_DATA_PATH` | `D:/quant/stock_report_analyzer/report_data` | **唯一根目录**。所有相对路径均以此为 base。 |
+| `MAPPING_PATH` | `D:/quant/stock_report_analyzer/report_data/mapping.json` | 公司名→股票代码映射 |
+| `DB_PATH` | `D:/quant/stock_report_analyzer/report_data/.claude_state/state.db` | SQLite 数据库 |
+| `LOG_DIR` | `D:/quant/stock_report_analyzer/report_data/.claude_state/logs` | 后端应用日志 |
 | `DEEP_RESEARCH_PATH` | `D:/quant/deep-research-report` | 外部依赖：annual_report_reader / table_parser |
-| `SCRIPT_PATH` | `D:/quant/report_analyzer/scripts` | 阶段 2.4 用到的 `split_section3.py` 等脚本 |
+| `SCRIPT_PATH` | `D:/quant/stock_report_analyzer/report_analyzer/scripts` | 阶段 2.4 用到的 `split_section3.py` 等脚本 |
 
 > ❌ 已废弃（重构后不再使用）：`RAW_BASE_PATH`、`REPORT_BASE_PATH`——历史 .env 残留将导致 pydantic 警告，应清理。
 
@@ -226,7 +226,7 @@ D:/quant/report_data/                                   ← 路径变量：REPOR
 | 阶段 2.2 解析 | `backend/app/workers/parse_split_pipeline.py` + `backend/app/services/mineru_parser/` |
 | 阶段 2.3-2.4 章节 + H2 | `backend/app/services/chapter_split_service.py` + `backend/app/services/section3_split_service.py`（由 `POST /chapters` 触发）|
 | 阶段 2.5 表格 | `backend/app/services/md_table_parser/` |
-| 阶段 3.1 skill | `D:/quant/report_data/.claude/skills/stage1_business_understanding/SKILL.md` + `backend/app/services/claude_skill_runner.py` + `backend/app/workers/report_pipeline.py` |
+| 阶段 3.1 skill | `D:/quant/stock_report_analyzer/report_data/.claude/skills/stage1_business_understanding/SKILL.md` + `backend/app/services/claude_skill_runner.py` + `backend/app/workers/report_pipeline.py` |
 | 静态文件路由 | `backend/app/main.py`（`/api/static/md/` 和 `/api/static/raw/`）|
 | 复用模块路径常量 | `D:/quant/deep-research-report/shared/tools/annual_report_search/constants.py`、`annual_report_reader/utils.py`、`table_extractor.py` |
 | 迁移脚本 | `backend/scripts/migrate_to_single_tree.py` |

@@ -3,7 +3,8 @@
 report_analyzer/.backend.log
 report_analyzer/.frontend.log
 report_data/.claude_state/
-report_data/*/output/log/
+# LLM 调用日志（修正 `*` 不匹配 `.claude` 这种点开头目录的旧规则）
+report_data/**/output/log/
 
 # ===== Temp / cache =====
 .tmp/
@@ -46,6 +47,29 @@ report_data/**/.staging/
 # ===== report_data runtime artifacts (不跟踪) =====
 report_data/.claude_state/
 report_data/**/mineru_output/
+# Stage 2.2 MinerU 原始解析：full.md 是逐页拼接的原始输出，业务/财务报告 MD 同目录
+report_data/**/md/raw/**/full.md
+report_data/**/md/raw/**/*_业务报告.md
+report_data/**/md/raw/**/*_财务报告.md
+# Stage 2.3 章节切分（by_section/）
+report_data/**/md/clean/**/by_section/*.md
+# Stage 2.4 第三节 H2 切分（管理层讨论/）
+report_data/**/md/clean/**/管理层讨论/*.md
+# Stage 2.5 表格抽取（table/ 顶层 + 章节子目录）
+report_data/**/table/*.csv
+report_data/**/table/**/*.csv
+# Stage 3.1 skill 样例输出（业务概况 / 行业分析；正本在 md/research_file/ 下）
+report_data/**/*业务概况*.md
+report_data/**/*行业分析*.md
+report_data/**/*公司报告*.md
+# Skill scratchpad / drafts / 参考资料
+report_data/**/md/research_file/_drafts/**
+report_data/**/md/research_file/参考资料/**
+# Skill 临时 extraction notes（落盘在 {公司} 根的 stage0_extraction.md）
+report_data/**/stage*_extraction.md
+
+# ===== PDF binaries disguised as JSON (base64 dumps from download skills) =====
+report_analyzer/pdf*.json
 
 # ===== Claude Code user-level config at repo root (stray templates) =====
 /.claude/
